@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    <link rel="stylesheet" href="{% static 'styles_quiz.css' %}">
+</head>
+<body>
+    <h1>¡Quiz finalizado!</h1>
+    <p>Tu puntuación: <strong>{{ score }}/{{ total }}</strong></p>
+    <a href="{% url 'quiz' %}"><button>Reintentar</button></a>
+</body>
+</html>

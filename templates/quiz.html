@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="{% static 'styles_quiz.css' %}">
+</head>
+<body>
+    <h1>Quiz</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        <h3>{{ question.question }}</h3>
+
+        {% for option in question.options %}
+            <label>
+                <input type="radio" name="answer" value="{{ option }}"
+                    {% if show_feedback %} disabled {% endif %}
+                    {% if option == selected_answer %} checked {% endif %}
+                > {{ option }}
+            </label><br>
+        {% endfor %}
+
+        {% if error_message %}
+            <p style="color: red;"><strong>{{ error_message }}</strong></p>
+        {% endif %}
+
+        {% if show_feedback %}
+            <p>
+                {% if is_correct %}
+                    ✅ Correcto
+                {% else %}
+                    ❌ Incorrecto. La respuesta correcta era: <strong>{{ question.answer }}</strong>
+                {% endif %}
+            </p>
+            <button type="submit">Siguiente pregunta</button>
+        {% else %}
+            <button type="submit">Responder</button>
+        {% endif %}
+    </form>
+    
+    <form action="{% url 'index' %}" method="get">
+        <button type="submit" class="btn-volver">Volver</button>
+    </form>
+    
+    
+</body>
+</html>

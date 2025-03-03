@@ -1,0 +1,52 @@
+[
+    {
+        "question": "¿Cuál es la capital de Italia?",
+        "options": ["Roma", "París", "Berlín", "Madrid"],
+        "answer": "Roma"
+    },
+    {
+        "question": "¿Cuál es el elemento químico con el símbolo O?",
+        "options": ["Oxígeno", "Oro", "Osmio", "Oganesón"],
+        "answer": "Oxígeno"
+    },
+    {
+        "question": "¿Cuál es el planeta más cercano al sol?",
+        "options": ["Mercurio", "Venus", "Tierra", "Marte"],
+        "answer": "Mercurio"
+    },
+    {
+        "question": "¿Quién escribió 'Cien años de soledad'?",
+        "options": ["Gabriel García Márquez", "Mario Vargas Llosa", "Julio Cortázar", "Jorge Luis Borges"],
+        "answer": "Gabriel García Márquez"
+    },
+    {
+        "question": "¿Cuál es el río más largo del mundo?",
+        "options": ["Amazonas", "Nilo", "Yangtsé", "Misisipi"],
+        "answer": "Amazonas"
+    },
+    {
+        "question": "¿Cuál es el idioma oficial de Brasil?",
+        "options": ["Portugués", "Español", "Inglés", "Francés"],
+        "answer": "Portugués"
+    },
+    {
+        "question": "¿En qué año llegó el hombre a la luna?",
+        "options": ["1969", "1959", "1979", "1989"],
+        "answer": "1969"
+    },
+    {
+        "question": "¿Cuál es el animal terrestre más rápido?",
+        "options": ["Guepardo", "León", "Tigre", "Elefante"],
+        "answer": "Guepardo"
+    },
+    {
+        "question": "¿Cuál es la fórmula química del agua?",
+        "options": ["H2O", "CO2", "O2", "H2SO4"],
+        "answer": "H2O"
+    },
+    {
+        "question": "¿Quién pintó la Mona Lisa?",
+        "options": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Claude Monet"],
+        "answer": "Leonardo da Vinci"
+    }
+]
