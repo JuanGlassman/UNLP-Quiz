@@ -12,39 +12,56 @@
 
     <form method="post">
         {% csrf_token %}
-        <h3>{{ question.question }}</h3>
+        <h3>{{ question.number }}) {{ question.question }}</h3>
 
-        {% for option in question.options %}
+        {% for key, value in options.items %}
             <label>
-                <input type="radio" name="answer" value="{{ option }}"
+                {{ key }})
+                <input type="radio" name="answer" value="{{ key }}"
                     {% if show_feedback %} disabled {% endif %}
-                    {% if option == selected_answer %} checked {% endif %}
-                > {{ option }}
+                    {% if selected_answer == key %} checked {% endif %}
+                >  {{ value }}
             </label><br>
         {% endfor %}
 
-        {% if error_message %}
-            <p style="color: red;"><strong>{{ error_message }}</strong></p>
-        {% endif %}
 
         {% if show_feedback %}
             <p>
                 {% if is_correct %}
                     ✅ Correcto
                 {% else %}
-                    ❌ Incorrecto. La respuesta correcta era: <strong>{{ question.answer }}</strong>
+                    ❌ Incorrecto. La respuesta correcta era la: <strong>{{ question.answer }}) </strong>
                 {% endif %}
             </p>
             <button type="submit">Siguiente pregunta</button>
         {% else %}
-            <button type="submit">Responder</button>
+            <button type="submit" onclick="return validarSeleccion()">Responder</button>
+            <p id="mensajeError" class="error-message">⚠️ Debes seleccionar una respuesta antes de continuar.</p>
         {% endif %}
     </form>
     
     <form action="{% url 'index' %}" method="get">
         <button type="submit" class="btn-volver">Volver</button>
     </form>
-    
-    
+
+    <script>
+        function validarSeleccion() {
+            var opciones = document.getElementsByName('answer');
+            var seleccionado = false;
+
+            for (let i = 0; i < opciones.length; i++) {
+                if (opciones[i].checked) {
+                    seleccionado = true;
+                    break;
+                }
+            }
+
+            if (!seleccionado) {
+                mensajeError.style.display = "block"; 
+                return false; 
+            }
+            return true; 
+        }
+    </script>
 </body>
 </html>

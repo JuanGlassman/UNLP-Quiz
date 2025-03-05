@@ -1,52 +1,41 @@
 [
     {
-        "question": "¿Cuál es la capital de Italia?",
-        "options": ["Roma", "París", "Berlín", "Madrid"],
-        "answer": "Roma"
+        "number": 1,
+        "question": "Una dependencia transitiva",
+        "options": {
+            "a": "Se da entre un par de atributos que no son claves unívocas",
+            "b": "Se da entre un par de atributos siendo ambas claves unívocas",
+            "c": "Se da entre dos atributos, el determinante no es clave unívoca y el determinado es parte de una clave",
+            "d": "Se da entre un par de atributos siendo el determinante solamente clave univoca",
+            "e": "Se da entre un par de atributos siendo el determinante parte de clave univoca y el determinado un"
+        },
+        "answer": "a"
     },
     {
-        "question": "¿Cuál es el elemento químico con el símbolo O?",
-        "options": ["Oxígeno", "Oro", "Osmio", "Oganesón"],
-        "answer": "Oxígeno"
+        "number": 2,
+        "question": "Una jerarquía",
+        "options": {
+            "a": "Se debe eliminar al pasar el modelo conceptual al lógico relacional",
+            "b": "Se debe eliminar al pasar del modelo conceptual al lógico, independientemente al tipo de DBMS",
+            "c": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (T, E)",
+            "d": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (P, S)",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
     },
     {
-        "question": "¿Cuál es el planeta más cercano al sol?",
-        "options": ["Mercurio", "Venus", "Tierra", "Marte"],
-        "answer": "Mercurio"
-    },
-    {
-        "question": "¿Quién escribió 'Cien años de soledad'?",
-        "options": ["Gabriel García Márquez", "Mario Vargas Llosa", "Julio Cortázar", "Jorge Luis Borges"],
-        "answer": "Gabriel García Márquez"
-    },
-    {
-        "question": "¿Cuál es el río más largo del mundo?",
-        "options": ["Amazonas", "Nilo", "Yangtsé", "Misisipi"],
-        "answer": "Amazonas"
-    },
-    {
-        "question": "¿Cuál es el idioma oficial de Brasil?",
-        "options": ["Portugués", "Español", "Inglés", "Francés"],
-        "answer": "Portugués"
-    },
-    {
-        "question": "¿En qué año llegó el hombre a la luna?",
-        "options": ["1969", "1959", "1979", "1989"],
-        "answer": "1969"
-    },
-    {
-        "question": "¿Cuál es el animal terrestre más rápido?",
-        "options": ["Guepardo", "León", "Tigre", "Elefante"],
-        "answer": "Guepardo"
-    },
-    {
-        "question": "¿Cuál es la fórmula química del agua?",
-        "options": ["H2O", "CO2", "O2", "H2SO4"],
-        "answer": "H2O"
-    },
-    {
-        "question": "¿Quién pintó la Mona Lisa?",
-        "options": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Claude Monet"],
-        "answer": "Leonardo da Vinci"
+        "number": 3,
+        "question": "Una clave foránea en el modelo físico",
+        "options": {
+            "a": "Fue identificador en el modelo lógico",
+            "b": "Fue identificador en el modelo conceptual",
+            "c": "Fue clave candidata cuando se generó una tabla",
+            "d": "Identifica un único registro en una de las tablas donde aparece",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
     }
 ]

@@ -40,3 +40,10 @@ label {
 .btn-volver:hover {
     background-color: #0056b3;
 }
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    display: none; /* Oculto por defecto */
+    margin-top: 10px;
+}

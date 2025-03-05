@@ -11,5 +11,8 @@
     <h1>¡Quiz finalizado!</h1>
     <p>Tu puntuación: <strong>{{ score }}/{{ total }}</strong></p>
     <a href="{% url 'quiz' %}"><button>Reintentar</button></a>
+    <form action="{% url 'index' %}" method="get">
+        <button type="submit" class="btn-volver">Volver</button>
+    </form>
 </body>
 </html>
