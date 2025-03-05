@@ -1,3 +1,4 @@
+{% load custom_filters %}
 {% load static %}
 <!DOCTYPE html>
 <html lang="es">
@@ -30,7 +31,8 @@
                 {% if is_correct %}
                     ✅ Correcto
                 {% else %}
-                    ❌ Incorrecto. La respuesta correcta era la: <strong>{{ question.answer }}) </strong>
+                    ❌ Incorrecto. La respuesta correcta era:
+                    <strong>{{ question.answer }}) {{ options|get_item:question.answer }}</strong>
                 {% endif %}
             </p>
             <button type="submit">Siguiente pregunta</button>
