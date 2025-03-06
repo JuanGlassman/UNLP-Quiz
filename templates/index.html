@@ -11,25 +11,31 @@
 <body>
 
     <header class="header-title">
-        <h1>Machete Quiz</h1>
+        <h1 tabindex="0">Machete Quiz</h1>
     </header>
 
     <main class="main-container d-flex flex-column align-items-center">
-        <section>
-            <h2>Sobre la App</h2>
+        <section aria-labelledby="sobre-app">
+            <h2 id="sobre-app" tabindex="0">Sobre la App</h2>
             <p>La aplicación permite responder preguntas y muestra inmediatamente si la respuesta es correcta o no.</p>
         </section>
 
-        <section class="flex-column align-items-center">
-            <h2>Diseño de Bases de Datos</h2>
-            <a href="{% url 'quiz' 'MODELADO' %}" class="btn btn-primary">Modelado</a>
-            <a href="{% url 'quiz' 'CONSULTAS' %}" class="btn btn-primary">Consultas</a>
-            <a href="{% url 'quiz' 'Seguridad_e_Integridad_de_Datos' %}" class="btn btn-primary">Seguridad e integridad de datos</a>
-        </section>        
+        <section class="flex-column align-items-center" aria-labelledby="dbd-section">
+            <h2 id="dbd-section" tabindex="0">Diseño de Bases de Datos</h2>
+            <a href="{% url 'quiz' 'MODELADO' %}" class="btn btn-primary" role="button" aria-label="Quiz de Modelado">Modelado</a>
+            <a href="{% url 'quiz' 'CONSULTAS' %}" class="btn btn-primary" role="button" aria-label="Quiz de Consultas">Consultas</a>
+            <a href="{% url 'quiz' 'Seguridad_e_Integridad_de_Datos' %}" class="btn btn-primary" role="button" aria-label="Quiz de Seguridad e Integridad de Datos">Seguridad e integridad de datos</a>
+        </section>       
+
+        <section class="flex-column align-items-center" aria-labelledby="modo-examen">
+            <a href="{% url 'quiz' 'Todas_las_preguntas' %}" class="btn btn-primary" role="button" aria-label="Todas las preguntas">Todas las preguntas</a>
+            <a href="{% url 'start_exam' %}" class="btn btn-primary" role="button" aria-label="Modo examen">Modo examen</a>
+        </section>         
+         
     </main>
 
     <footer>
-        <p>&copy; 2025 Machete Quiz</p>
+        <p tabindex="0">&copy; 2025 Machete Quiz</p>
     </footer>
 
 </body>

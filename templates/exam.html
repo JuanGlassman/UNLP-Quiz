@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modo Examen</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <h1>Modo Examen</h1>
+    <p>Pregunta {{ current_index }} de {{ total_questions }}</p>
+
+    <form method="post">
+        {% csrf_token %}
+        <h3>{{ question.number }}) {{ question.question }}</h3>
+
+        {% for key, value in question.options.items %}
+            <label>
+                {{ key }})
+                <input type="radio" name="answer" value="{{ key }}"
+                    {% if show_feedback %} disabled {% endif %}
+                    {% if selected_answer == key %} checked {% endif %}
+                >  {{ value }}
+            </label><br>
+        {% endfor %}
+
+        {% if show_feedback %}
+            <p>
+                {% if is_correct %}
+                    ✅ Correcto
+                {% else %}
+                    ❌ Incorrecto. La respuesta correcta era la: <strong>{{ question.answer }}) {{ question.options|dictsort:question.answer }}</strong>
+                {% endif %}
+            </p>
+            <button type="submit">Siguiente pregunta</button>
+        {% else %}
+            <button type="submit">Responder</button>
+        {% endif %}
+    </form>
+
+    <form action="{% url 'index' %}" method="get">
+        <button type="submit" class="btn-volver">Volver</button>
+    </form>
+</body>
+</html>

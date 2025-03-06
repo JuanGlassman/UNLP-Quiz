@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado del Examen</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <h1>Resultado del Examen</h1>
+    <p>Tu puntaje: <strong>{{ score }}</strong> de <strong>{{ total_questions }}</strong></p>
+
+    <form action="{% url 'start_exam' %}" method="get">
+        <button type="submit" class="btn btn-primary">Intentar de nuevo</button>
+    </form>
+
+    <form action="{% url 'index' %}" method="get">
+        <button type="submit" class="btn-volver">Volver</button>
+    </form>
+</body>
+</html>
