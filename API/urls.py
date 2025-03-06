@@ -4,6 +4,7 @@ from . import views
 nameapp = 'API'
 
 urlpatterns = [
-    path('', views.index, name='index'),  # Página principal
-    path('quiz/', views.quiz_view, name='quiz'),  # Página del quiz
+    path('', views.index, name='index'),  
+    path('quiz/<str:modulo>/', views.quiz_view, name='quiz'),  
+    path('quiz/reset/<str:modulo>/', views.reset_preguntas, name='reset_quiz'),
 ]

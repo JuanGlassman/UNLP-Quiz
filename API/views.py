@@ -3,27 +3,32 @@ import os
 from django.shortcuts import render, redirect
 from django.conf import settings
 
-JSON_FILE = os.path.join(settings.BASE_DIR,  'data', 'questions.json')
-
 def index(request):
     return render(request, 'index.html')
 
-def load_questions():
-    try:
-        with open(JSON_FILE, 'r', encoding='utf-8') as file:
-            return json.load(file)
-    except FileNotFoundError:
-        return []
+def open_file(request, modulo):
+    json_file = os.path.join(settings.BASE_DIR, f"data/{modulo}.json")
 
-def quiz_view(request):
-    questions = load_questions()
+    print(f"{modulo}.json")
+
+    if not os.path.exists(json_file):
+        return render(request, 'error.html', {'message': f"No se encontraron preguntas para el módulo {modulo}."})
+
+    with open(json_file, "r", encoding="utf-8") as file:
+        questions = json.load(file)
+
+    return questions
+
+def quiz_view(request, modulo):
+    questions = open_file(request, modulo)
+
     total_questions = len(questions)
-
-    current_index = int(request.session.get('current_index', 0))
-    correct_answers = int(request.session.get('correct_answers', 0))
+    current_index = int(request.session.get(f'current_index_{modulo}', 0))
+    correct_answers = int(request.session.get(f'correct_answers_{modulo}', 0))
 
     if current_index >= total_questions:
-        request.session.flush() 
+        request.session.pop(f'current_index_{modulo}', None)
+        request.session.pop(f'correct_answers_{modulo}', None)
         return render(request, 'quiz_result.html', {'score': correct_answers, 'total': total_questions})
 
     current_question = questions[current_index]
@@ -31,7 +36,6 @@ def quiz_view(request):
     is_correct = None
     selected_answer = None
     show_feedback = False
-    error_message = None
 
     if request.method == 'POST':
         selected_answer = request.POST.get('answer')
@@ -40,10 +44,11 @@ def quiz_view(request):
             correct_answer = current_question['answer']
 
             is_correct = (selected_answer == correct_answer)
+            
             if is_correct:
-                request.session['correct_answers'] = correct_answers + 1
+                request.session[f'correct_answers_{modulo}'] = correct_answers + 1
 
-            request.session['current_index'] = current_index + 1
+            request.session[f'current_index_{modulo}'] = current_index + 1
         
             show_feedback = True
     
@@ -53,4 +58,10 @@ def quiz_view(request):
         'show_feedback': show_feedback,
         'is_correct': is_correct,
         'selected_answer': selected_answer,
+        'modulo': modulo.replace('_',' '),
     })
+
+def reset_preguntas(request, modulo):
+    request.session.pop(f'current_index_{modulo}', None)
+    request.session.pop(f'correct_answers_{modulo}', None)
+    return redirect('index')

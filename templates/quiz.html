@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{% static 'styles_quiz.css' %}">
 </head>
 <body>
-    <h1>Quiz</h1>
+    <h1>Quiz - {{ modulo }}</h1>
 
     <form method="post">
         {% csrf_token %}
@@ -44,7 +44,12 @@
     
     <form action="{% url 'index' %}" method="get">
         <button type="submit" class="btn-volver">Volver</button>
+    </form>  
+    <form action="{% url 'reset_quiz' modulo %}" method="post" style="margin-top: 20px;">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Reiniciar módulo</button>
     </form>
+    
 
     <script>
         function validarSeleccion() {

@@ -1,0 +1,818 @@
+[
+    {
+        "number": 1,
+        "question": "Si se produce inanición",
+        "options": {
+            "a": "Previamente se produjo deadlock",
+            "b": "Previamente no se produjo deadlock",
+            "c": "Se debe limitar el uso de bloqueos",
+            "d": "Se debe limitar el uso de bloqueos exclusivos",
+            "e": "Se debe limitar el uso de bloqueos compartidos",
+            "f": "Todas las anteriores",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 2,
+        "question": "Sea una transacción cuya HDE es 14. ¿Suponga que la transacción quiere escribir el dato Q, en cuál de los siguientes casos, la operación da éxito?",
+        "options": {
+            "a": "HR(Q) = 10, HW(Q) = 13",
+            "b": "HR(Q) = 15, HW(Q) = 13",
+            "c": "HR(Q) = 13, HW(Q) = 15",
+            "d": "Todas las anteriores son validas",
+            "e": "ninguna de las anteriores es validas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 3,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "Garantiza que una transacción no puede fallar",
+            "b": "Solo se aplica en ambientes concurrentes",
+            "c": "Garantiza el cometido de una transacción",
+            "d": "Solo se aplica en ambientes monousuario",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 4,
+        "question": "La propiedad de durabilidad",
+        "options": {
+            "a": "Asegura que una transacción finalizada no puede volver a ejecutarse",
+            "b": "Asegura que una transacción no interfiera con otra durante su ejecución",
+            "c": "Asegura que una transacción se ejecutó completamente si no hubo errores",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 5,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "se puede asegurar con el uso de una bitácora",
+            "b": "se puede asegurar con el uso del método de doble paginación",
+            "c": "se puede asegurar con el protocolo de HDE",
+            "d": "se puede asegurar con el protocolo de dos fases",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 6,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "Garantiza que una transacción no puede fallar",
+            "b": "Garantiza que una transacción no va a abortar",
+            "c": "Garantiza el cometido de una transacción",
+            "d": "Garantiza que una transacción activa no fallará",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 7,
+        "question": "El protocolo de Hora de Entrada",
+        "options": {
+            "a": "Se aplica en casos de deadlock",
+            "b": "Se aplica en casos de inanición",
+            "c": "Solo admite bloqueos compartidos",
+            "d": "Admite bloqueos exclusivos",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 8,
+        "question": "El protocolo de doble paginación",
+        "options": {
+            "a": "Evita la pérdida de consistencia de la BD",
+            "b": "Asegura la atomicidad de una transacción",
+            "c": "Garantiza el aislamiento de una transacción",
+            "d": "Asegura la durabilidad de una transacción",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 9,
+        "question": "Un checkpoint en ambientes concurrentes",
+        "options": {
+            "a": "Solo se genera sino hay transacciones activas",
+            "b": "Solo se genera si hay a lo sumo 2 transacciones activas",
+            "c": "Se aplica en el protocolo de doble paginación",
+            "d": "No requiere el uso de bitácora",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 10,
+        "question": "Una transacción que alcanza el estado de abortada",
+        "options": {
+            "a": "Puede volver a activa, si el protocolo de HDE lo permite",
+            "b": "Alcanzó el estado de parcialmente abortada y aborto por un fallo en el sistema",
+            "c": "Alcanzo el estado de fallada, posteriormente a haberse ejecutado total o parcialmente en memoria RAM",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 11,
+        "question": "El protocolo de Hora de Entrada",
+        "options": {
+            "a": "Se aplica en ambientes monousuarios para tratar errores",
+            "b": "Asegura que una transacción no falle",
+            "c": "Garantiza el aislamiento de una transacción monousuaria",
+            "d": "Asegura la durabilidad de una transacción fallada",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 12,
+        "question": "El protocolo de modificación inmediata de la BD",
+        "options": {
+            "a": "Genera una bitácora con menos información que el protocolo de modificación diferida",
+            "b": "Requiere de menos procedimientos para la recuperación que le protocolo de modificación diferida",
+            "c": "Es la peor variante del protocolo basado en registro histórico",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 13,
+        "question": "El protocolo de doble paginación",
+        "options": {
+            "a": "Sólo admite bloqueos compartidos",
+            "b": "Sólo admite bloqueos exclusivos",
+            "c": "Permite resolver situaciones de deadlock",
+            "d": "No permite resolver situaciones de inanición",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 14,
+        "question": "La propiedad de idempotencia",
+        "options": {
+            "a": "Se aplica sólo en entornos concurrentes",
+            "b": "Evita errores en la ejecución de transacciones",
+            "c": "Asegura la durabilidad de transacciones",
+            "d": "Restringe la consistencia de transacciones",
+            "e": "Asegura el aislamiento de transacciones",
+            "f": "Todas las anteriores",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 15,
+        "question": "Quienes son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 16,
+        "question": "La propiedad de aislamiento",
+        "options": {
+            "a": "Asegura que una transacción finalizada no puede volver a ejecutarse",
+            "b": "Asegura que una transacción interfiera con otra durante su ejecución",
+            "c": "Asegura que una transacción se ejecutó completamente si no hubo errores",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 17,
+        "question": "El protocolo de modificación diferida de la BD",
+        "options": {
+            "a": "Genera una bitácora con más información que el protocolo de modificación inmediata",
+            "b": "Requiere de más procedimientos para la recuperación que le protocolo de modificación inmediata",
+            "c": "Es la mejor variante del protocolo basado en registro histórico",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 18,
+        "question": "Una transacción que alcanza el estado de abortada",
+        "options": {
+            "a": "Puede volver a activa",
+            "b": "Alcanzó el estado de parcialmente abortada",
+            "c": "Puede haber alcanzado el estado de fallada",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 19,
+        "question": "El protocolo de Hora de Entrada",
+        "options": {
+            "a": "Se aplica en casos de deadlock",
+            "b": "Se aplica en casos de inanición",
+            "c": "Solo admite bloqueos compartidos",
+            "d": "Admite bloqueos exclusivos",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 20,
+        "question": "El protocolo de dos fases",
+        "options": {
+            "a": "Sólo admite bloqueos compartidos",
+            "b": "Sólo admite bloqueos exclusivos",
+            "c": "Evita situaciones de deadlock",
+            "d": "Evita situaciones de inanición",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 21,
+        "question": "Quienes son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 22,
+        "question": "La propiedad de idempotencia",
+        "options": {
+            "a": "Se puede aplicar cuando se utiliza el protocolo de Hora de Entrada",
+            "b": "Se puede aplicar cuando se utiliza el protocolo de bloqueo de dos fases",
+            "c": "Se puede aplicar en entornos monousuarios",
+            "d": "Se puede aplicar en el protocolo de doble paginación",
+            "e": "Todas las anteriores son válidas",
+            "f": "Algunas de las anteriores son validas",
+            "g": "Ninguna de las anteriores son validas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 23,
+        "question": "La propiedad de aislamiento",
+        "options": {
+            "a": "Se aplica en un ambiente monousuario",
+            "b": "Se aplica a veces en un ambiente concurrente",
+            "c": "No se aplica en un ambiente monousuario",
+            "d": "No se aplica en un ambiente concurrente",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 24,
+        "question": "Sea una transacción cuya HDE es 14. ¿Suponga que la transacción quiere escribir el dato Q, en cuál de los siguientes casos, la operación da éxito?",
+        "options": {
+            "a": "HR(Q) = 10, HW(Q) = 13",
+            "b": "HR(Q) = 15, HW(Q) = 13",
+            "c": "HR(Q) = 13, HW(Q) = 15",
+            "d": "Todas las anteriores son validas",
+            "e": "ninguna de las anteriores es validas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 25,
+        "question": "Quienes no son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 26,
+        "question": "El protocolo de modificación diferida de la BD",
+        "options": {
+            "a": "Genera una bitácora con más información que el protocolo de modificación inmediata",
+            "b": "Requiere de más procedimientos para la recuperación que le protocolo de modificación inmediata",
+            "c": "Es la peor variante del protocolo basado en registro histórico",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 27,
+        "question": "Si se produce inanición de una transacción en un ambiente monousuario",
+        "options": {
+            "a": "Se puede producir deadlock",
+            "b": "No se puede producir deadlock",
+            "c": "Se debe abortar la ejecución de dicha transacción",
+            "d": "No se debe abortar la ejecución de dicha transacción",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 28,
+        "question": "El protocolo de dos fases",
+        "options": {
+            "a": "Sólo admite bloqueos compartidos",
+            "b": "Sólo admite bloqueos exclusivos",
+            "c": "Evita situaciones de deadlock",
+            "d": "Evita situaciones de inanición",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 29,
+        "question": "El protocolo de Hora de Entrada",
+        "options": {
+            "a": "Se aplica en ambientes monousuarios para tratar errores",
+            "b": "Asegura que una transacción no falle",
+            "c": "Garantiza el aislamiento de una transacción monousuaria",
+            "d": "Asegura la durabilidad de una transacción fallada",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 30,
+        "question": "Una transacción que se ejecuta utilizando el protocolo de hora de entrada",
+        "options": {
+            "a": "Puede tener Commits y aborts en la bitácora",
+            "b": "Puede utilizar el protocolo de dos fases para controlar aislamiento",
+            "c": "Puede tener checkpoints en la bitácora",
+            "d": "Todas las anteriores son validas",
+            "e": "Algunas de las anteriores son validas",
+            "f": "La pregunta es incompatible con las opciones a, b y c"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 31,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "se puede asegurar con el uso de una bitácora",
+            "b": "se puede asegurar con el uso del método de doble paginación",
+            "c": "se puede asegurar con el protocolo de HDE",
+            "d": "se puede asegurar con el protocolo de dos fases",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 32,
+        "question": "Un checkpoint en ambientes concurrentes",
+        "options": {
+            "a": "Solo se genera sino hay transacciones activas",
+            "b": "Solo se genera si hay a lo sumo 2 transacciones activas",
+            "c": "Se aplica en el protocolo de doble paginación",
+            "d": "No requiere el uso de bitácora",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 33,
+        "question": "Quienes son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 34,
+        "question": "Una transacción que se ejecuta utilizando el protocolo de hora de entrada",
+        "options": {
+            "a": "Puede tener Commits y aborts en la bitácora",
+            "b": "Puede utilizar el protocolo de dos fases para controlar aislamiento",
+            "c": "Puede tener checkpoints en la bitácora",
+            "d": "Todas las anteriores son validas",
+            "e": "Algunas de las anteriores son validas",
+            "f": "La pregunta es incompatible con las opciones a, b y c"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 35,
+        "question": "Sea una transacción cuya HDE es 14. Suponga que la transacción quiere escribir el dato Q, ¿en cuál de los siguientes casos, la operación da éxito?",
+        "options": {
+            "a": "HR(Q) = 15, HW(Q) = 13",
+            "b": "HR(Q) = 15, HW(Q) = 15",
+            "c": "HR(Q) = 13, HW(Q) = 15",
+            "d": "Todas las anteriores son validas",
+            "e": "ninguna de las anteriores es validas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 36,
+        "question": "Una transacción que alcanzo el estado de cometida",
+        "options": {
+            "a": "cumple la propiedad de atomicidad",
+            "b": "cumple la propiedad de durabilidad",
+            "c": "cumple la propiedad de aislamiento",
+            "d": "cumple la propiedad de consistencia",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 37,
+        "question": "Quienes no son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 38,
+        "question": "El protocolo de dos fases",
+        "options": {
+            "a": "Sólo admite bloqueos compartidos",
+            "b": "Sólo admite bloqueos exclusivos",
+            "c": "Evita situaciones de deadlock",
+            "d": "Evita situaciones de inanición",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 39,
+        "question": "La propiedad de idempotencia",
+        "options": {
+            "a": "Se puede aplicar cuando se utiliza el protocolo de Hora de Entrada",
+            "b": "Se puede aplicar cuando se utiliza el protocolo de bloqueo de dos fases",
+            "c": "Se puede aplicar en entornos monousuarios",
+            "d": "Se puede aplicar en el protocolo de doble paginación",
+            "e": "Todas las anteriores son válidas",
+            "f": "Algunas de las anteriores son validas",
+            "g": "Ninguna de las anteriores son validas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 40,
+        "question": "El protocolo de modificación inmediata de la BD",
+        "options": {
+            "a": "Genera una bitácora con menos información que el protocolo de modificación diferida",
+            "b": "Requiere de menos procedimientos para la recuperación que le protocolo de modificación diferida",
+            "c": "Es la peor variante del protocolo basado en registro histórico",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 41,
+        "question": "Una transacción que alcanza el estado de abortada",
+        "options": {
+            "a": "Puede volver a activa, si el protocolo de HDE lo permite",
+            "b": "Alcanzó el estado de parcialmente abortada y aborto por un fallo en el sistema",
+            "c": "Alcanzo el estado de fallada, posteriormente a haberse ejecutado total o parcialmente en memoria RAM",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 42,
+        "question": "Una transacción que se ejecuta utilizando el protocolo de hora de entrada",
+        "options": {
+            "a": "Puede tener Commits y aborts en la bitácora",
+            "b": "Puede utilizar el protocolo de dos fases para controlar aislamiento",
+            "c": "Puede tener checkpoints en la bitácora",
+            "d": "Todas las anteriores son validas",
+            "e": "Algunas de las anteriores son validas",
+            "f": "La pregunta es incompatible con las opciones a, b y c"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 43,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "Garantiza que una transacción no puede fallar",
+            "b": "Solo se aplica en ambientes concurrentes",
+            "c": "Garantiza el cometido de una transacción",
+            "d": "Solo se aplica en ambientes monousuario",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 44,
+        "question": "El protocolo de doble paginación",
+        "options": {
+            "a": "Evita la pérdida de consistencia de la BD",
+            "b": "Asegura la atomicidad de una transacción",
+            "c": "Garantiza el aislamiento de una transacción",
+            "d": "Asegura la durabilidad de una transacción",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 45,
+        "question": "El protocolo de Hora de Entrada",
+        "options": {
+            "a": "Se aplica en casos de deadlock",
+            "b": "Se aplica en casos de inanición",
+            "c": "Solo admite bloqueos compartidos",
+            "d": "Admite bloqueos exclusivos",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 46,
+        "question": "Quienes no son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 47,
+        "question": "El protocolo de modificación inmediata de la BD",
+        "options": {
+            "a": "Genera una bitácora con menos información que el protocolo de modificación diferida",
+            "b": "Requiere de menos procedimientos para la recuperación que le protocolo de modificación diferida",
+            "c": "Es la peor variante del protocolo basado en registro histórico",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 48,
+        "question": "La propiedad de durabilidad",
+        "options": {
+            "a": "Asegura que una transacción finalizada no puede volver a ejecutarse",
+            "b": "Asegura que una transacción no interfiera con otra durante su ejecución",
+            "c": "Asegura que una transacción se ejecutó completamente si no hubo errores",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 49,
+        "question": "El protocolo de Hora de Entrada",
+        "options": {
+            "a": "Sólo se aplica en casos de deadlock",
+            "b": "Se aplica en casos de inanición",
+            "c": "Admite bloqueos compartidos",
+            "d": "Se aplica en ambientes monousuarios para tratar errores",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 50,
+        "question": "El protocolo de doble paginación",
+        "options": {
+            "a": "Sólo admite bloqueos compartidos",
+            "b": "Sólo admite bloqueos exclusivos",
+            "c": "Permite resolver situaciones de deadlock",
+            "d": "No permite resolver situaciones de inanición",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 51,
+        "question": "Un checkpoint en ambientes concurrentes",
+        "options": {
+            "a": "Solo se genera si hay transacciones activas",
+            "b": "Solo se genera si hay como mínimo 2 transacciones activas",
+            "c": "Se aplica en el protocolo de doble paginación",
+            "d": "No requiere el uso de bitácora",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 52,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "se puede asegurar con el uso de una bitácora",
+            "b": "se puede asegurar con el uso del método de doble paginación",
+            "c": "se puede asegurar con el protocolo de HDE",
+            "d": "se puede asegurar con el protocolo de dos fases",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 53,
+        "question": "Una transacción que alcanza el estado de abortada",
+        "options": {
+            "a": "Puede volver a activa, si el protocolo de HDE lo permite",
+            "b": "Alcanzó el estado de parcialmente abortada y aborto por un fallo en el sistema",
+            "c": "Alcanzo el estado de fallada, posteriormente a haberse ejecutado total o parcialmente en memoria RAM",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 54,
+        "question": "La propiedad de idempotencia",
+        "options": {
+            "a": "Se puede aplicar cuando se utiliza el protocolo de Hora de Entrada",
+            "b": "Se puede aplicar cuando se utiliza el protocolo de bloqueo de dos fases",
+            "c": "Se puede aplicar en entornos monousuarios",
+            "d": "Se puede aplicar en el protocolo de doble paginación",
+            "e": "Todas las anteriores son válidas",
+            "f": "Algunas de las anteriores son validas",
+            "g": "Ninguna de las anteriores son validas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 55,
+        "question": "Sea una transacción cuya HDE es 14.   Suponga que la transacción quiere escribir el dato Q, ¿en cuál de los siguientes casos, la operación da éxito?",
+        "options": {
+            "a": "HR(Q) = 10, HW(Q) = 13",
+            "b": "HR(Q) = 15, HW(Q) = 13",
+            "c": "HR(Q) = 13, HW(Q) = 15",
+            "d": "Todas las anteriores son validas",
+            "e": "ninguna de las anteriores es validas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 56,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "Garantiza que una transacción no puede fallar",
+            "b": "Garantiza que una transacción no va a abortar",
+            "c": "Garantiza el cometido de una transacción",
+            "d": "Garantiza que una transacción activa no fallará",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 57,
+        "question": "Si se produce deadlock",
+        "options": {
+            "a": "Previamente se produjo inanición",
+            "b": "Previamente no se produjo inanición",
+            "c": "Se debe limitar el uso de bloqueos",
+            "d": "Se debe limitar el uso de bloqueos exclusivos",
+            "e": "Se debe limitar el uso de bloqueos compartidos",
+            "f": "Todas las anteriores",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 58,
+        "question": "El protocolo de modificación diferida de la BD",
+        "options": {
+            "a": "Garantiza aislamiento en la ejecución de transacciones, utilizado para ello una bitácora",
+            "b": "Utiliza la operación UNDO en caso de fallo y luego de recuperarse, cuando en bitácora encuentra una transacción",
+            "c": "Se utiliza con el protocolo de HDE",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 59,
+        "question": "El protocolo de doble paginación",
+        "options": {
+            "a": "Sólo admite bloqueos compartidos",
+            "b": "Sólo admite bloqueos exclusivos",
+            "c": "Permite resolver situaciones de deadlock",
+            "d": "Permite resolver situaciones de inanición",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 60,
+        "question": "Quienes no son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    }
+]

@@ -5,13 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNLP Quiz</title>
+    <title>Machete Quiz</title>
     <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
 </head>
 <body>
 
     <header class="header-title">
-        <h1>UNLP Quiz</h1>
+        <h1>Machete Quiz</h1>
     </header>
 
     <main class="main-container d-flex flex-column align-items-center">
@@ -20,14 +20,16 @@
             <p>La aplicación permite responder preguntas y muestra inmediatamente si la respuesta es correcta o no.</p>
         </section>
 
-        <section class="d-flex flex-column align-items-center">
-            <h2>Comenzar Quiz</h2>
-            <a href="{% url 'quiz' %}" class="btn btn-primary">Comenzar</a>
-        </section>
+        <section class="flex-column align-items-center">
+            <h2>Diseño de Bases de Datos</h2>
+            <a href="{% url 'quiz' 'MODELADO' %}" class="btn btn-primary">Modelado</a>
+            <a href="{% url 'quiz' 'CONSULTAS' %}" class="btn btn-primary">Consultas</a>
+            <a href="{% url 'quiz' 'Seguridad_e_Integridad_de_Datos' %}" class="btn btn-primary">Seguridad e integridad de datos</a>
+        </section>        
     </main>
 
     <footer>
-        <p>&copy; 2025 UNLP Quiz</p>
+        <p>&copy; 2025 Machete Quiz</p>
     </footer>
 
 </body>

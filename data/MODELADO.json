@@ -1,0 +1,785 @@
+[
+    {
+        "number": 1,
+        "question": "Una dependencia transitiva",
+        "options": {
+            "a": "Se da entre un par de atributos que no son claves unívocas",
+            "b": "Se da entre un par de atributos siendo ambas claves unívocas",
+            "c": "Se da entre dos atributos, el determinante no es clave unívoca y el determinado es parte de una clave",
+            "d": "Se da entre un par de atributos siendo el determinante solamente clave univoca",
+            "e": "Se da entre un par de atributos siendo el determinante parte de clave univoca y el determinado un"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 2,
+        "question": "Una jerarquía",
+        "options": {
+            "a": "Se debe eliminar al pasar el modelo conceptual al lógico relacional",
+            "b": "Se debe eliminar al pasar del modelo conceptual al lógico, independientemente al tipo de DBMS",
+            "c": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (T, E)",
+            "d": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (P, S)",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 3,
+        "question": "Una clave foránea en el modelo físico",
+        "options": {
+            "a": "Fue identificador en el modelo lógico",
+            "b": "Fue identificador en el modelo conceptual",
+            "c": "Fue clave candidata cuando se generó una tabla",
+            "d": "Identifica un único registro en una de las tablas donde aparece",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 4,
+        "question": "Un atributo polivalente",
+        "options": {
+            "a": "Debe aparecer en el modelo conceptual",
+            "b": "Debe aparecer en el modelo lógico",
+            "c": "Debe tener cardinalidad mínima igual a 0",
+            "d": "Debe tener cardinalidad mínima igual a 1",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 5,
+        "question": "Una Tabla en el modelo físico",
+        "options": {
+            "a": "Es el resultado de una entidad del lógico",
+            "b": "Es el resultado de una relación del lógico",
+            "c": "Tiene varias claves candidatas",
+            "d": "Tiene una clave candidata",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 6,
+        "question": "Un atributo derivado",
+        "options": {
+            "a": "Puede ser identificador",
+            "b": "Puede ser un atributo polivalente",
+            "c": "Debe estar en una entidad",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 7,
+        "question": "Una jerarquía con cobertura T, E",
+        "options": {
+            "a": "Se debe eliminar al pasar el modelo conceptual al lógico relacional",
+            "b": "Se debe eliminar al pasar del modelo conceptual al lógico, independientemente al tipo de DBMS",
+            "c": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (T, E)",
+            "d": "Se debe eliminar al pasar del modelo conceptual porque así lo determina su cobertura",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 8,
+        "question": "Una dependencia parcial",
+        "options": {
+            "a": "Se da entre un par de atributos que no son claves unívocas",
+            "b": "Se da entre un par de atributos siendo ambas claves unívocas",
+            "c": "Se da entre dos atributos, el determinante no es clave unívoca y el determinado es parte de una clave",
+            "d": "Se da entre un par de atributos siendo el determinante solamente clave univoca",
+            "e": "Se da entre un par de atributos siendo el determinante parte de clave univoca y el determinado un"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 9,
+        "question": "Cuando un modelo conceptual de datos es autoexplicativo, entonces:",
+        "options": {
+            "a": "Es fácil de mantener",
+            "b": "Es fácil de actualizar",
+            "c": "No es redundante",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 10,
+        "question": "Una clave primaria en el modelo físico",
+        "options": {
+            "a": "Fue identificador en el modelo lógico",
+            "b": "Fue identificador en el modelo conceptual",
+            "c": "Fue clave candidata cuando se generó la tabla",
+            "d": "Identifica un único registro de la tabla",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 11,
+        "question": "El diseño conceptual de una BD",
+        "options": {
+            "a": "Está condicionado por el Tipo de DBMS a utilizar",
+            "b": "Está condicionado por el DBMS específico a utilizar",
+            "c": "Aplica reglas compatibles con una Base de Datos Relacional",
+            "d": "Se realiza para Bases de Datos sin importar su tamaño",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 12,
+        "question": "Dadas las tablas: ejemplo = (atr1, atr2, atr3, atr4, atr5) siendo atr1 CP, y atr3 CC si se definen las siguientes Dependencias funcionales: atr1 --> atr2, atr1--> atr3, atr1 --> atr4, atr1--> atr5, atr3 --> atr1, atr3 --> atr2, atr3 --> atr4 y atr3 --> atr5. La tabla está en:",
+        "options": {
+            "a": "1FN",
+            "b": "2FN",
+            "c": "3FN",
+            "d": "BCFN",
+            "e": "4FN",
+            "f": "5FN",
+            "g": "Todas las anteriores son correctas",
+            "h": "No tengo datos suficientes para responder"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 13,
+        "question": "Sean tres relaciones A, B y C, A relacionada con B, B con C y C con A.  El ciclo",
+        "options": {
+            "a": "Atenta contra la minimalidad del problema",
+            "b": "Solo atenta contra la minimalidad si genera redundancia de información",
+            "c": "Puede atentar contra la minimalidad",
+            "d": "Todas las anteriores son validas",
+            "e": "Algunas de las anteriores son validas",
+            "f": "Ninguna de las anteriores son validas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 14,
+        "question": "Un atributo compuesto en el modelo lógico",
+        "options": {
+            "a": "Puede tener cardinalidad mínima 0",
+            "b": "Puede tener cardinalidad mínima 1",
+            "c": "Puede tener cardinalidad máxima N",
+            "d": "Indica que el atributo puede tener varios atributos simples",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 15,
+        "question": "Una clave foránea",
+        "options": {
+            "a": "Debe ser una clave secundaria",
+            "b": "Debe ser una clave candidata",
+            "c": "Puede ser una clave secundaria",
+            "d": "Puede ser una clave candidata",
+            "e": "Algunas son correctas",
+            "f": "No tengo datos suficientes para contestar"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 16,
+        "question": "Dadas las tablas: ejemplo = (atr1, atr2, atr3, atr4, atr5) siendo atr1 CP, y atr3 CC si se definen las siguientes Dependencias funcionales: atr1 --> atr2, atr1--> atr3 atr1 --> atr4, atr1--> atr5, atr3 --> atr1, atr3 --> atr2, atr3 --> atr4 y atr3 --> atr5, atr2 --> atr4. La tabla está en:",
+        "options": {
+            "a": "1FN",
+            "b": "2FN",
+            "c": "3FN",
+            "d": "BCFN",
+            "e": "4FN",
+            "f": "5FN",
+            "g": "Todas de las anteriores son correctas",
+            "h": "Algunas de las anteriores son correctas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 17,
+        "question": "Una relación uno a uno obligatoria, cuando se pasa del modelo lógico al físico",
+        "options": {
+            "a": "siempre se convierte en tabla",
+            "b": "algunas veces se convierte en tabla",
+            "c": "nunca se convierte en tabla",
+            "d": "hay que analizar la situación puntual para poder responder"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 18,
+        "question": "Un atributo monovalente",
+        "options": {
+            "a": "Puede tener cardinalidad mínima >1",
+            "b": "Debe tener cardinalidad mínima = 1",
+            "c": "Debe tener cardinalidad mínima >= 0",
+            "d": "Debe tener cardinalidad mínima = 0",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 19,
+        "question": "Sea un atributo ATR1 polivalente sobre el modelo conceptual, con cardinalidad (0, N).  Cuando se pasa al modelo lógico",
+        "options": {
+            "a": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "b": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "c": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "d": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 20,
+        "question": "Una clave primaria de una tabla",
+        "options": {
+            "a": "puede ser un identificador del modelo lógico",
+            "b": "puede ser un autoicremental que se define sobre el modelo físico",
+            "c": "Puede ser una clave foránea",
+            "d": "Todas son correctas",
+            "e": "Algunas de las anteriores con correctas",
+            "f": "ninguna opción es correcta"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 21,
+        "question": "Cuando un modelo conceptual de datos es mínimo, entonces:",
+        "options": {
+            "a": "Es fácil de mantener",
+            "b": "Es fácil de actualizar",
+            "c": "No es redundante",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 22,
+        "question": "Una jerarquía con cobertura T, E",
+        "options": {
+            "a": "Se debe eliminar al pasar el modelo conceptual al lógico relacional",
+            "b": "Se debe eliminar al pasar del modelo conceptual al lógico, independientemente al tipo de DBMS",
+            "c": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (T, E)",
+            "d": "Se debe eliminar al pasar del modelo conceptual porque así lo determina su cobertura",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 23,
+        "question": "Un atributo compuesto",
+        "options": {
+            "a": "Puede tener carnalidad mínima 1",
+            "b": "Puede tener cardinalidad mínima 0",
+            "c": "Puede tener carnalidad máxima N",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 24,
+        "question": "Una relación uno a uno obligatoria, cuando se pasa del modelo lógico al físico",
+        "options": {
+            "a": "siempre se convierte en tabla",
+            "b": "algunas veces se convierte en tabla",
+            "c": "nunca se convierte en tabla",
+            "d": "hay que analizar la situación puntual para poder responder"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 25,
+        "question": "Una dependencia parcial",
+        "options": {
+            "a": "Es una dependencia funcional completa",
+            "b": "Es una dependencia funcional",
+            "c": "puede ser una dependencia transitiva",
+            "d": "Todas las anteriores son correctas",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las Anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 26,
+        "question": "Un atributo polivalente en el modelo físico",
+        "options": {
+            "a": "Se convierte en tabla",
+            "b": "Se puede dejar como un \"registro de registros” en la tabla que lo contiene",
+            "c": "Se convierte en atributo simple",
+            "d": "Se convierte en un atributo polivalente",
+            "e": "Alguna de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 27,
+        "question": "Sean tres relaciones A, B y C, A relacionada con B por la relación R1, B con C por R2 y C con A por R3.. R1, R2 y R3 son relaciones muchos a muchos. El ciclo",
+        "options": {
+            "a": "Atenta contra la minimalidad del problema",
+            "b": "Solo atenta contra la minimalidad si genera redundancia de información",
+            "c": "Puede atentar contra la minimalidad",
+            "d": "Todas las anteriores son validas",
+            "e": "Algunas de las anteriores son validas",
+            "f": "Ninguna de las anteriores son validas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 28,
+        "question": "Una tabla que no tiene dependencias funcionales transitivas",
+        "options": {
+            "a": "Puede estar en primera forma normal",
+            "b": "Puede estar en segunda forma normal",
+            "c": "Puede estar en tercera forma normal",
+            "d": "Puede estar en BCNF",
+            "e": "Puede estar en cuarta forma normal",
+            "f": "Todas las anteriores",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 29,
+        "question": "Una relación recursiva definida sobre la relación A con la siguiente cardinalidad: de un lado es (0, N) y del otro es (1, N). Cuando se pasar la relación al modelo físico",
+        "options": {
+            "a": "Se convierte en tabla",
+            "b": "Puede convertirse en tabla",
+            "c": "No se convierte en tabla",
+            "d": "Depende de la decisión que tome el diseñador",
+            "e": "Hay más de una respuesta correcta"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 30,
+        "question": "Sea un atributo ATR1 polivalente sobre el modelo conceptual, con cardinalidad (0, N).  Cuando se pasa al modelo lógico",
+        "options": {
+            "a": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "b": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "c": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "d": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 31,
+        "question": "Una relación uno a muchos entre dos entidades cualquiera",
+        "options": {
+            "a": "Puede ser opcional de ambos lados",
+            "b": "Puede ser opcional de un solo lado",
+            "c": "Debe tener cardinalidad N de ambos lados",
+            "d": "Puede ser obligatoria de ambos lados",
+            "e": "Todas son correctas",
+            "f": "Algunas son correctas",
+            "g": "Ninguna es correcta"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 32,
+        "question": "Dadas las tabla: ejemplo = (atr1, atr2, atr3, atr4, atr5), siendo atr1 CP, y atr3 CC, si se definen las siguientes Dependencias funcionales: atr1 --> atr2, atr1--> atr3, atr1 --> atr4, atr1--> atr5, atr3 --> atr1, atr3 --> atr2, atr3 --> atr4 y atr3 --> atr5. La tabla está en:",
+        "options": {
+            "a": "1FN",
+            "b": "2FN",
+            "c": "3FN",
+            "d": "BCFN",
+            "e": "4FN",
+            "f": "5FN",
+            "g": "Todas las anteriores son correctas",
+            "h": "No tengo datos suficientes para responder"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 33,
+        "question": "Una jerarquía en el modelo físico",
+        "options": {
+            "a": "Puede tener cobertura parcial, superpuesta",
+            "b": "Puede tener cobertura parcial, exclusiva",
+            "c": "Puede tener cobertura total, superpuesta",
+            "d": "Puede tener cobertura total, exclusiva",
+            "e": "Todas las anteriores son validas",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 34,
+        "question": "El diseño conceptual de una BD",
+        "options": {
+            "a": "Está condicionado por el Tipo de DBMS a utilizar",
+            "b": "Está condicionado por el DBMS específico a utilizar",
+            "c": "Aplica reglas compatibles con una Base de Datos Relacional",
+            "d": "Se realiza para Bases de Datos sin importar su tamaño",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 35,
+        "question": "Una relación uno a muchos con cobertura parcial del lado de uno y total del otro lado del modelo lógico, cuando se pasa al modelo físico",
+        "options": {
+            "a": "Siempre se convierte en tabla",
+            "b": "Nunca se convierte en tabla",
+            "c": "Depende el DBA de la BD convertirla o no en tabla",
+            "d": "Se convierte en tabla en función de lo que decida el diseñador",
+            "e": "Algunas con correctas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 36,
+        "question": "Una relación uno a muchos con cobertura total del lado de uno y parcial del lado de muchos del modelo lógico, cuando se pasa al modelo físico",
+        "options": {
+            "a": "Siempre se convierte en tabla",
+            "b": "Nunca se convierte en tabla",
+            "c": "Depende el DBA de la BD convertirla o no en tabla",
+            "d": "Se convierte en tabla en función de lo que decida el diseñador"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 37,
+        "question": "Los identificadores compuestos",
+        "options": {
+            "a": "Deben tener un atributo compuesto obligatorio",
+            "b": "Deben tener un atributo compuesto, pero puede no ser obligatorio",
+            "c": "Puede tener un atributo compuesto que debe ser no obligatorio",
+            "d": "Necesariamente debe ser interno",
+            "e": "Algunas de las anteriores son validas",
+            "f": "Ninguna de las Anteriores son validas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 38,
+        "question": "Un atributo derivado sobre el modelo lógico",
+        "options": {
+            "a": "Debe sacarse",
+            "b": "Puede sacarse",
+            "c": "Debe dejarse",
+            "d": "Puede dejarse",
+            "e": "Algunas de las anteriores son validas",
+            "f": "Ninguna de las anteriores son validas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 39,
+        "question": "Una tabla que no está en segunda forma normal",
+        "options": {
+            "a": "Puede estar en primera forma normal",
+            "b": "No puede estar en tercera forma normal",
+            "c": "Puede tener dependencias funcionales parciales",
+            "d": "No puede estar en BCNF",
+            "e": "Puede tener dependencias funcionales transitivas",
+            "f": "Todas las anteriores",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 40,
+        "question": "Una jerarquía con cobertura P, E",
+        "options": {
+            "a": "Se debe eliminar al pasar el modelo conceptual al lógico relacional",
+            "b": "Se debe eliminar al pasar del modelo conceptual al lógico, independientemente al tipo de DBMS",
+            "c": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (P, E)",
+            "d": "Se debe eliminar al pasar del modelo conceptual porque así lo determina su cobertura",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 41,
+        "question": "Sea un atributo ATR1 polivalente sobre el modelo conceptual, con cardinalidad (0, N).  Cuando se pasa al modelo lógico",
+        "options": {
+            "a": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "b": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "c": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "d": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 42,
+        "question": "Un identificador del modelo lógico, cuando se pasa el modelo físico puede ser",
+        "options": {
+            "a": "clave primaria",
+            "b": "clave candidata",
+            "c": "clave secundaria",
+            "d": "todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 43,
+        "question": "Un esquema físico que no tiene dependencias parciales está en:",
+        "options": {
+            "a": "1FN",
+            "b": "2FN",
+            "c": "3FN",
+            "d": "BCNF",
+            "e": "4FN",
+            "f": "5FN",
+            "g": "Todas las anteriores",
+            "h": "Algunas de las anteriores",
+            "i": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 44,
+        "question": "Sea un atributo ATR1 polivalente sobre el modelo conceptual, con cardinalidad (1, N).  Cuando se pasa al modelo lógico",
+        "options": {
+            "a": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "b": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "c": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "d": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 45,
+        "question": "Una relación muchos a muchos con cobertura parcial de un lado y total del otro lado del modelo lógico, cuando se pasa al modelo físico",
+        "options": {
+            "a": "Siempre se convierte en tabla",
+            "b": "Nunca se convierte en tabla",
+            "c": "Depende el DBA de la BD convertirla o no en tabla",
+            "d": "Se convierte en tabla en función de lo que decida el diseñador"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 46,
+        "question": "Una dependencia multivaluada",
+        "options": {
+            "a": "Genera repetición innecesaria de información",
+            "b": "Puede generar repetición innecesaria de información",
+            "c": "Genera repetición de información si no es una dependencia multivaluada trivial",
+            "d": "Todas las anteriores son correctas",
+            "e": "Algunas de las anteriores son correctas",
+            "f": "Ninguna de las anteriores es correcta"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 47,
+        "question": "Un atributo polivalente",
+        "options": {
+            "a": "Puede tener cardinalidad mínima 1",
+            "b": "Puede tener cardinalidad mínima 0",
+            "c": "Puede tener cardinalidad máxima N",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 48,
+        "question": "Una entidad",
+        "options": {
+            "a": "Debe tener más de un identificador",
+            "b": "Puede tener un identificador monovalente no obligatorio",
+            "c": "Puede un identificador externo simple",
+            "d": "Todas las anteriores son validas",
+            "e": "Alguna de las anteriores son validas",
+            "f": "Ninguna de las anteriores son validas"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 49,
+        "question": "Una clave foránea en el modelo físico",
+        "options": {
+            "a": "Fue identificador en el modelo lógico",
+            "b": "Fue identificador en el modelo conceptual",
+            "c": "Fue clave candidata cuando se generó una tabla",
+            "d": "Identifica un único registro en una de las tablas donde aparece",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 50,
+        "question": "Un atributo que es identificador",
+        "options": {
+            "a": "Puede ser monovalente",
+            "b": "Puede ser polivalente",
+            "c": "Puede tener cardinalidad mínima >= 0",
+            "d": "Puede tener cardinalidad mínima = 1",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 51,
+        "question": "Sea la siguiente tabla ejemplo (atr1, atr2, atr3) si se tienen las siguientes dependencias multivaluadas (atr1, atr2) -->--> atr3, (atr1, atr3) --> --> atr2. La tabla:",
+        "options": {
+            "a": "Puede estar en 4FN",
+            "b": "Esta en 4FN",
+            "c": "Esta en 4FN si estaba en BCFN",
+            "d": "Algunas de las anteriores",
+            "e": "No tengo datos suficientes para responder"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 52,
+        "question": "Sea una entidad persona, que en el modelo conceptual tiene los atributos fecha de nacimiento y edad.  Cuando se pasa al modelo lógico",
+        "options": {
+            "a": "El atributo edad debe quitarse del modelo",
+            "b": "El atributo fecha de nacimiento debe quitarse del modelo",
+            "c": "El atributo edad genera repetición innecesaria de información",
+            "d": "Debería analizar el problema en general para poder responder"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 53,
+        "question": "Una relación uno a muchos entre dos entidades cualquiera",
+        "options": {
+            "a": "Puede ser opcional de ambos lados",
+            "b": "Puede ser opcional de un solo lado",
+            "c": "Debe tener cardinalidad N de ambos lados",
+            "d": "Puede ser obligatoria de ambos lados",
+            "e": "Todas son correctas",
+            "f": "Algunas son correctas",
+            "g": "Ninguna es correcta"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 54,
+        "question": "Un identificador en el modelo físico",
+        "options": {
+            "a": "puede ser un atributo simple",
+            "b": "puede ser un atributo compuesto siempre y cuando sea monovalente",
+            "c": "puede ser compuesto por dos atributos obligatorios monovalentes obligatorios",
+            "d": "Todas las anteriores",
+            "e": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 55,
+        "question": "Una jerarquía con cobertura P, S",
+        "options": {
+            "a": "Se debe eliminar al pasar el modelo conceptual al lógico relacional",
+            "b": "Se debe eliminar al pasar del modelo conceptual al lógico, independientemente al tipo de DBMS",
+            "c": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (P, S)",
+            "d": "Se debe eliminar al pasar del modelo conceptual porque así lo determina su cobertura",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 56,
+        "question": "Una relación recursiva definida sobre la relación A con la siguiente cardinalidad: de un lado es (1,1) y del otro es (0, N). Cuando se pasar la relación al modelo físico",
+        "options": {
+            "a": "Se convierte en tabla",
+            "b": "Puede convertirse en tabla",
+            "c": "No se convierte en tabla",
+            "d": "Depende de la decisión que tome el diseñador",
+            "e": "Depende de la decisión que tome el DBA"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 57,
+        "question": "Una tabla que no está en quinta forma normal",
+        "options": {
+            "a": "Puede estar en primera forma normal",
+            "b": "Puede estar en segunda forma normal",
+            "c": "Puede estar en tercera forma normal",
+            "d": "Puede estar en BCNF",
+            "e": "Puede tener dependencias funcionales parciales",
+            "f": "Todas las anteriores",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 58,
+        "question": "Un atributo polivalente",
+        "options": {
+            "a": "Puede tener cardinalidad mínima 1",
+            "b": "Puede tener cardinalidad mínima 0",
+            "c": "Puede tener cardinalidad máxima N",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 59,
+        "question": "Un atributo compuesto",
+        "options": {
+            "a": "Debe aparecer en el modelo conceptual",
+            "b": "Debe aparecer en el modelo lógico",
+            "c": "Debe tener cardinalidad mínima igual a 0",
+            "d": "Debe tener cardinalidad mínima igual a 1",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "number": 60,
+        "question": "EL concepto de integridad referencial",
+        "options": {
+            "a": "Utiliza el concepto de clave foránea para su definición",
+            "b": "Permite definir una operación en cascada en caso de borrado o modificación que se vea influenciada",
+            "c": "Permite definir el concepto de restricción de borrado para la clave primaria",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna es correcta",
+            "g": "Se debe usar una función de agregación",
+            "h": "Se debe utilizar un INNER JOIN en el FROM",
+            "i": "Se controla que un conjunto contenga un elemento que pertenece al otro conjunto",
+            "j": "Todas las anteriores",
+            "k": "Algunas de las anteriores",
+            "l": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    }
+]
