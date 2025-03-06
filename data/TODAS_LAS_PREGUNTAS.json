@@ -1,0 +1,2527 @@
+[
+    {
+        "module": "MODELADO",
+        "number": 1,
+        "question": "Una dependencia transitiva",
+        "options": {
+            "a": "Se da entre un par de atributos que no son claves unívocas",
+            "b": "Se da entre un par de atributos siendo ambas claves unívocas",
+            "c": "Se da entre dos atributos, el determinante no es clave unívoca y el determinado es parte de una clave",
+            "d": "Se da entre un par de atributos siendo el determinante solamente clave univoca",
+            "e": "Se da entre un par de atributos siendo el determinante parte de clave univoca y el determinado un"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "MODELADO",
+        "number": 2,
+        "question": "Una jerarquía",
+        "options": {
+            "a": "Se debe eliminar al pasar el modelo conceptual al lógico relacional",
+            "b": "Se debe eliminar al pasar del modelo conceptual al lógico, independientemente al tipo de DBMS",
+            "c": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (T, E)",
+            "d": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (P, S)",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "MODELADO",
+        "number": 3,
+        "question": "Una clave foránea en el modelo físico",
+        "options": {
+            "a": "Fue identificador en el modelo lógico",
+            "b": "Fue identificador en el modelo conceptual",
+            "c": "Fue clave candidata cuando se generó una tabla",
+            "d": "Identifica un único registro en una de las tablas donde aparece",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 4,
+        "question": "Un atributo polivalente",
+        "options": {
+            "a": "Debe aparecer en el modelo conceptual",
+            "b": "Debe aparecer en el modelo lógico",
+            "c": "Debe tener cardinalidad mínima igual a 0",
+            "d": "Debe tener cardinalidad mínima igual a 1",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 5,
+        "question": "Una Tabla en el modelo físico",
+        "options": {
+            "a": "Es el resultado de una entidad del lógico",
+            "b": "Es el resultado de una relación del lógico",
+            "c": "Tiene varias claves candidatas",
+            "d": "Tiene una clave candidata",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "MODELADO",
+        "number": 6,
+        "question": "Un atributo derivado",
+        "options": {
+            "a": "Puede ser identificador",
+            "b": "Puede ser un atributo polivalente",
+            "c": "Debe estar en una entidad",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "MODELADO",
+        "number": 7,
+        "question": "Una jerarquía con cobertura T, E",
+        "options": {
+            "a": "Se debe eliminar al pasar el modelo conceptual al lógico relacional",
+            "b": "Se debe eliminar al pasar del modelo conceptual al lógico, independientemente al tipo de DBMS",
+            "c": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (T, E)",
+            "d": "Se debe eliminar al pasar del modelo conceptual porque así lo determina su cobertura",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "MODELADO",
+        "number": 8,
+        "question": "Una dependencia parcial",
+        "options": {
+            "a": "Se da entre un par de atributos que no son claves unívocas",
+            "b": "Se da entre un par de atributos siendo ambas claves unívocas",
+            "c": "Se da entre dos atributos, el determinante no es clave unívoca y el determinado es parte de una clave",
+            "d": "Se da entre un par de atributos siendo el determinante solamente clave univoca",
+            "e": "Se da entre un par de atributos siendo el determinante parte de clave univoca y el determinado un"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 9,
+        "question": "Cuando un modelo conceptual de datos es autoexplicativo, entonces:",
+        "options": {
+            "a": "Es fácil de mantener",
+            "b": "Es fácil de actualizar",
+            "c": "No es redundante",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 10,
+        "question": "Una clave primaria en el modelo físico",
+        "options": {
+            "a": "Fue identificador en el modelo lógico",
+            "b": "Fue identificador en el modelo conceptual",
+            "c": "Fue clave candidata cuando se generó la tabla",
+            "d": "Identifica un único registro de la tabla",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 11,
+        "question": "El diseño conceptual de una BD",
+        "options": {
+            "a": "Está condicionado por el Tipo de DBMS a utilizar",
+            "b": "Está condicionado por el DBMS específico a utilizar",
+            "c": "Aplica reglas compatibles con una Base de Datos Relacional",
+            "d": "Se realiza para Bases de Datos sin importar su tamaño",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "MODELADO",
+        "number": 12,
+        "question": "Dadas las tablas: ejemplo = (atr1, atr2, atr3, atr4, atr5) siendo atr1 CP, y atr3 CC si se definen las siguientes Dependencias funcionales: atr1 --> atr2, atr1--> atr3, atr1 --> atr4, atr1--> atr5, atr3 --> atr1, atr3 --> atr2, atr3 --> atr4 y atr3 --> atr5. La tabla está en:",
+        "options": {
+            "a": "1FN",
+            "b": "2FN",
+            "c": "3FN",
+            "d": "BCFN",
+            "e": "4FN",
+            "f": "5FN",
+            "g": "Todas las anteriores son correctas",
+            "h": "No tengo datos suficientes para responder"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "MODELADO",
+        "number": 13,
+        "question": "Sean tres relaciones A, B y C, A relacionada con B, B con C y C con A.  El ciclo",
+        "options": {
+            "a": "Atenta contra la minimalidad del problema",
+            "b": "Solo atenta contra la minimalidad si genera redundancia de información",
+            "c": "Puede atentar contra la minimalidad",
+            "d": "Todas las anteriores son validas",
+            "e": "Algunas de las anteriores son validas",
+            "f": "Ninguna de las anteriores son validas"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 14,
+        "question": "Un atributo compuesto en el modelo lógico",
+        "options": {
+            "a": "Puede tener cardinalidad mínima 0",
+            "b": "Puede tener cardinalidad mínima 1",
+            "c": "Puede tener cardinalidad máxima N",
+            "d": "Indica que el atributo puede tener varios atributos simples",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "MODELADO",
+        "number": 15,
+        "question": "Una clave foránea",
+        "options": {
+            "a": "Debe ser una clave secundaria",
+            "b": "Debe ser una clave candidata",
+            "c": "Puede ser una clave secundaria",
+            "d": "Puede ser una clave candidata",
+            "e": "Algunas son correctas",
+            "f": "No tengo datos suficientes para contestar"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 16,
+        "question": "Dadas las tablas: ejemplo = (atr1, atr2, atr3, atr4, atr5) siendo atr1 CP, y atr3 CC si se definen las siguientes Dependencias funcionales: atr1 --> atr2, atr1--> atr3 atr1 --> atr4, atr1--> atr5, atr3 --> atr1, atr3 --> atr2, atr3 --> atr4 y atr3 --> atr5, atr2 --> atr4. La tabla está en:",
+        "options": {
+            "a": "1FN",
+            "b": "2FN",
+            "c": "3FN",
+            "d": "BCFN",
+            "e": "4FN",
+            "f": "5FN",
+            "g": "Todas de las anteriores son correctas",
+            "h": "Algunas de las anteriores son correctas"
+        },
+        "answer": "h"
+    },
+    {
+        "module": "MODELADO",
+        "number": 17,
+        "question": "Una relación uno a uno obligatoria, cuando se pasa del modelo lógico al físico",
+        "options": {
+            "a": "siempre se convierte en tabla",
+            "b": "algunas veces se convierte en tabla",
+            "c": "nunca se convierte en tabla",
+            "d": "hay que analizar la situación puntual para poder responder"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "MODELADO",
+        "number": 18,
+        "question": "Un atributo monovalente",
+        "options": {
+            "a": "Puede tener cardinalidad mínima >1",
+            "b": "Debe tener cardinalidad mínima = 1",
+            "c": "Debe tener cardinalidad mínima >= 0",
+            "d": "Debe tener cardinalidad mínima = 0",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 19,
+        "question": "Sea un atributo ATR1 polivalente sobre el modelo conceptual, con cardinalidad (0, N).  Cuando se pasa al modelo lógico",
+        "options": {
+            "a": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "b": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "c": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "d": "Ninguna de las anteriores"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "MODELADO",
+        "number": 20,
+        "question": "Una clave primaria de una tabla",
+        "options": {
+            "a": "puede ser un identificador del modelo lógico",
+            "b": "puede ser un autoicremental que se define sobre el modelo físico",
+            "c": "Puede ser una clave foránea",
+            "d": "Todas son correctas",
+            "e": "Algunas de las anteriores con correctas",
+            "f": "ninguna opción es correcta"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 21,
+        "question": "Cuando un modelo conceptual de datos es mínimo, entonces:",
+        "options": {
+            "a": "Es fácil de mantener",
+            "b": "Es fácil de actualizar",
+            "c": "No es redundante",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "MODELADO",
+        "number": 22,
+        "question": "Una jerarquía con cobertura T, E",
+        "options": {
+            "a": "Se debe eliminar al pasar el modelo conceptual al lógico relacional",
+            "b": "Se debe eliminar al pasar del modelo conceptual al lógico, independientemente al tipo de DBMS",
+            "c": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (T, E)",
+            "d": "Se debe eliminar al pasar del modelo conceptual porque así lo determina su cobertura",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "MODELADO",
+        "number": 23,
+        "question": "Un atributo compuesto",
+        "options": {
+            "a": "Puede tener carnalidad mínima 1",
+            "b": "Puede tener cardinalidad mínima 0",
+            "c": "Puede tener carnalidad máxima N",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "MODELADO",
+        "number": 24,
+        "question": "Una relación uno a uno obligatoria, cuando se pasa del modelo lógico al físico",
+        "options": {
+            "a": "siempre se convierte en tabla",
+            "b": "algunas veces se convierte en tabla",
+            "c": "nunca se convierte en tabla",
+            "d": "hay que analizar la situación puntual para poder responder"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "MODELADO",
+        "number": 25,
+        "question": "Una dependencia parcial",
+        "options": {
+            "a": "Es una dependencia funcional completa",
+            "b": "Es una dependencia funcional",
+            "c": "puede ser una dependencia transitiva",
+            "d": "Todas las anteriores son correctas",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las Anteriores"
+        },
+        "answer": "b"
+    },
+    {
+        "module": "MODELADO",
+        "number": 26,
+        "question": "Un atributo polivalente en el modelo físico",
+        "options": {
+            "a": "Se convierte en tabla",
+            "b": "Se puede dejar como un \"registro de registros” en la tabla que lo contiene",
+            "c": "Se convierte en atributo simple",
+            "d": "Se convierte en un atributo polivalente",
+            "e": "Alguna de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 27,
+        "question": "Sean tres relaciones A, B y C, A relacionada con B por la relación R1, B con C por R2 y C con A por R3.. R1, R2 y R3 son relaciones muchos a muchos. El ciclo",
+        "options": {
+            "a": "Atenta contra la minimalidad del problema",
+            "b": "Solo atenta contra la minimalidad si genera redundancia de información",
+            "c": "Puede atentar contra la minimalidad",
+            "d": "Todas las anteriores son validas",
+            "e": "Algunas de las anteriores son validas",
+            "f": "Ninguna de las anteriores son validas"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 28,
+        "question": "Una tabla que no tiene dependencias funcionales transitivas",
+        "options": {
+            "a": "Puede estar en primera forma normal",
+            "b": "Puede estar en segunda forma normal",
+            "c": "Puede estar en tercera forma normal",
+            "d": "Puede estar en BCNF",
+            "e": "Puede estar en cuarta forma normal",
+            "f": "Todas las anteriores",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 29,
+        "question": "Una relación recursiva definida sobre la relación A con la siguiente cardinalidad: de un lado es (0, N) y del otro es (1, N). Cuando se pasar la relación al modelo físico",
+        "options": {
+            "a": "Se convierte en tabla",
+            "b": "Puede convertirse en tabla",
+            "c": "No se convierte en tabla",
+            "d": "Depende de la decisión que tome el diseñador",
+            "e": "Hay más de una respuesta correcta"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "MODELADO",
+        "number": 30,
+        "question": "Sea un atributo ATR1 polivalente sobre el modelo conceptual, con cardinalidad (0, N).  Cuando se pasa al modelo lógico",
+        "options": {
+            "a": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "b": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "c": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "d": "Ninguna de las anteriores"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "MODELADO",
+        "number": 31,
+        "question": "Una relación uno a muchos entre dos entidades cualquiera",
+        "options": {
+            "a": "Puede ser opcional de ambos lados",
+            "b": "Puede ser opcional de un solo lado",
+            "c": "Debe tener cardinalidad N de ambos lados",
+            "d": "Puede ser obligatoria de ambos lados",
+            "e": "Todas son correctas",
+            "f": "Algunas son correctas",
+            "g": "Ninguna es correcta"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 32,
+        "question": "Dadas las tabla: ejemplo = (atr1, atr2, atr3, atr4, atr5), siendo atr1 CP, y atr3 CC, si se definen las siguientes Dependencias funcionales: atr1 --> atr2, atr1--> atr3, atr1 --> atr4, atr1--> atr5, atr3 --> atr1, atr3 --> atr2, atr3 --> atr4 y atr3 --> atr5. La tabla está en:",
+        "options": {
+            "a": "1FN",
+            "b": "2FN",
+            "c": "3FN",
+            "d": "BCFN",
+            "e": "4FN",
+            "f": "5FN",
+            "g": "Todas las anteriores son correctas",
+            "h": "No tengo datos suficientes para responder"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "MODELADO",
+        "number": 33,
+        "question": "Una jerarquía en el modelo físico",
+        "options": {
+            "a": "Puede tener cobertura parcial, superpuesta",
+            "b": "Puede tener cobertura parcial, exclusiva",
+            "c": "Puede tener cobertura total, superpuesta",
+            "d": "Puede tener cobertura total, exclusiva",
+            "e": "Todas las anteriores son validas",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 34,
+        "question": "El diseño conceptual de una BD",
+        "options": {
+            "a": "Está condicionado por el Tipo de DBMS a utilizar",
+            "b": "Está condicionado por el DBMS específico a utilizar",
+            "c": "Aplica reglas compatibles con una Base de Datos Relacional",
+            "d": "Se realiza para Bases de Datos sin importar su tamaño",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "MODELADO",
+        "number": 35,
+        "question": "Una relación uno a muchos con cobertura parcial del lado de uno y total del otro lado del modelo lógico, cuando se pasa al modelo físico",
+        "options": {
+            "a": "Siempre se convierte en tabla",
+            "b": "Nunca se convierte en tabla",
+            "c": "Depende el DBA de la BD convertirla o no en tabla",
+            "d": "Se convierte en tabla en función de lo que decida el diseñador",
+            "e": "Algunas con correctas"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 36,
+        "question": "Una relación uno a muchos con cobertura total del lado de uno y parcial del lado de muchos del modelo lógico, cuando se pasa al modelo físico",
+        "options": {
+            "a": "Siempre se convierte en tabla",
+            "b": "Nunca se convierte en tabla",
+            "c": "Depende el DBA de la BD convertirla o no en tabla",
+            "d": "Se convierte en tabla en función de lo que decida el diseñador"
+        },
+        "answer": "b"
+    },
+    {
+        "module": "MODELADO",
+        "number": 37,
+        "question": "Los identificadores compuestos",
+        "options": {
+            "a": "Deben tener un atributo compuesto obligatorio",
+            "b": "Deben tener un atributo compuesto, pero puede no ser obligatorio",
+            "c": "Puede tener un atributo compuesto que debe ser no obligatorio",
+            "d": "Necesariamente debe ser interno",
+            "e": "Algunas de las anteriores son validas",
+            "f": "Ninguna de las Anteriores son validas"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "MODELADO",
+        "number": 38,
+        "question": "Un atributo derivado sobre el modelo lógico",
+        "options": {
+            "a": "Debe sacarse",
+            "b": "Puede sacarse",
+            "c": "Debe dejarse",
+            "d": "Puede dejarse",
+            "e": "Algunas de las anteriores son validas",
+            "f": "Ninguna de las anteriores son validas"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 39,
+        "question": "Una tabla que no está en segunda forma normal",
+        "options": {
+            "a": "Puede estar en primera forma normal",
+            "b": "No puede estar en tercera forma normal",
+            "c": "Puede tener dependencias funcionales parciales",
+            "d": "No puede estar en BCNF",
+            "e": "Puede tener dependencias funcionales transitivas",
+            "f": "Todas las anteriores",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 40,
+        "question": "Una jerarquía con cobertura P, E",
+        "options": {
+            "a": "Se debe eliminar al pasar el modelo conceptual al lógico relacional",
+            "b": "Se debe eliminar al pasar del modelo conceptual al lógico, independientemente al tipo de DBMS",
+            "c": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (P, E)",
+            "d": "Se debe eliminar al pasar del modelo conceptual porque así lo determina su cobertura",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "MODELADO",
+        "number": 41,
+        "question": "Sea un atributo ATR1 polivalente sobre el modelo conceptual, con cardinalidad (0, N).  Cuando se pasa al modelo lógico",
+        "options": {
+            "a": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "b": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "c": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "d": "Ninguna de las anteriores"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "MODELADO",
+        "number": 42,
+        "question": "Un identificador del modelo lógico, cuando se pasa el modelo físico puede ser",
+        "options": {
+            "a": "clave primaria",
+            "b": "clave candidata",
+            "c": "clave secundaria",
+            "d": "todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 43,
+        "question": "Un esquema físico que no tiene dependencias parciales está en:",
+        "options": {
+            "a": "1FN",
+            "b": "2FN",
+            "c": "3FN",
+            "d": "BCNF",
+            "e": "4FN",
+            "f": "5FN",
+            "g": "Todas las anteriores",
+            "h": "Algunas de las anteriores",
+            "i": "Ninguna de las anteriores"
+        },
+        "answer": "i"
+    },
+    {
+        "module": "MODELADO",
+        "number": 44,
+        "question": "Sea un atributo ATR1 polivalente sobre el modelo conceptual, con cardinalidad (1, N).  Cuando se pasa al modelo lógico",
+        "options": {
+            "a": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "b": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "c": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
+            "d": "Ninguna de las anteriores"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "MODELADO",
+        "number": 45,
+        "question": "Una relación muchos a muchos con cobertura parcial de un lado y total del otro lado del modelo lógico, cuando se pasa al modelo físico",
+        "options": {
+            "a": "Siempre se convierte en tabla",
+            "b": "Nunca se convierte en tabla",
+            "c": "Depende el DBA de la BD convertirla o no en tabla",
+            "d": "Se convierte en tabla en función de lo que decida el diseñador"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "MODELADO",
+        "number": 46,
+        "question": "Una dependencia multivaluada",
+        "options": {
+            "a": "Genera repetición innecesaria de información",
+            "b": "Puede generar repetición innecesaria de información",
+            "c": "Genera repetición de información si no es una dependencia multivaluada trivial",
+            "d": "Todas las anteriores son correctas",
+            "e": "Algunas de las anteriores son correctas",
+            "f": "Ninguna de las anteriores es correcta"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 47,
+        "question": "Un atributo polivalente",
+        "options": {
+            "a": "Puede tener cardinalidad mínima 1",
+            "b": "Puede tener cardinalidad mínima 0",
+            "c": "Puede tener cardinalidad máxima N",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 48,
+        "question": "Una entidad",
+        "options": {
+            "a": "Debe tener más de un identificador",
+            "b": "Puede tener un identificador monovalente no obligatorio",
+            "c": "Puede un identificador externo simple",
+            "d": "Todas las anteriores son validas",
+            "e": "Alguna de las anteriores son validas",
+            "f": "Ninguna de las anteriores son validas"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 49,
+        "question": "Una clave foránea en el modelo físico",
+        "options": {
+            "a": "Fue identificador en el modelo lógico",
+            "b": "Fue identificador en el modelo conceptual",
+            "c": "Fue clave candidata cuando se generó una tabla",
+            "d": "Identifica un único registro en una de las tablas donde aparece",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 50,
+        "question": "Un atributo que es identificador",
+        "options": {
+            "a": "Puede ser monovalente",
+            "b": "Puede ser polivalente",
+            "c": "Puede tener cardinalidad mínima >= 0",
+            "d": "Puede tener cardinalidad mínima = 1",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 51,
+        "question": "Sea la siguiente tabla ejemplo (atr1, atr2, atr3) si se tienen las siguientes dependencias multivaluadas (atr1, atr2) -->--> atr3, (atr1, atr3) --> --> atr2. La tabla:",
+        "options": {
+            "a": "Puede estar en 4FN",
+            "b": "Esta en 4FN",
+            "c": "Esta en 4FN si estaba en BCFN",
+            "d": "Algunas de las anteriores",
+            "e": "No tengo datos suficientes para responder"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "MODELADO",
+        "number": 52,
+        "question": "Sea una entidad persona, que en el modelo conceptual tiene los atributos fecha de nacimiento y edad.  Cuando se pasa al modelo lógico",
+        "options": {
+            "a": "El atributo edad debe quitarse del modelo",
+            "b": "El atributo fecha de nacimiento debe quitarse del modelo",
+            "c": "El atributo edad genera repetición innecesaria de información",
+            "d": "Debería analizar el problema en general para poder responder"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "MODELADO",
+        "number": 53,
+        "question": "Una relación uno a muchos entre dos entidades cualquiera",
+        "options": {
+            "a": "Puede ser opcional de ambos lados",
+            "b": "Puede ser opcional de un solo lado",
+            "c": "Debe tener cardinalidad N de ambos lados",
+            "d": "Puede ser obligatoria de ambos lados",
+            "e": "Todas son correctas",
+            "f": "Algunas son correctas",
+            "g": "Ninguna es correcta"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 54,
+        "question": "Un identificador en el modelo físico",
+        "options": {
+            "a": "puede ser un atributo simple",
+            "b": "puede ser un atributo compuesto siempre y cuando sea monovalente",
+            "c": "puede ser compuesto por dos atributos obligatorios monovalentes obligatorios",
+            "d": "Todas las anteriores",
+            "e": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 55,
+        "question": "Una jerarquía con cobertura P, S",
+        "options": {
+            "a": "Se debe eliminar al pasar el modelo conceptual al lógico relacional",
+            "b": "Se debe eliminar al pasar del modelo conceptual al lógico, independientemente al tipo de DBMS",
+            "c": "Se debe eliminar al pasar del modelo conceptual al lógico, porque la cobertura es (P, S)",
+            "d": "Se debe eliminar al pasar del modelo conceptual porque así lo determina su cobertura",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "MODELADO",
+        "number": 56,
+        "question": "Una relación recursiva definida sobre la relación A con la siguiente cardinalidad: de un lado es (1,1) y del otro es (0, N). Cuando se pasar la relación al modelo físico",
+        "options": {
+            "a": "Se convierte en tabla",
+            "b": "Puede convertirse en tabla",
+            "c": "No se convierte en tabla",
+            "d": "Depende de la decisión que tome el diseñador",
+            "e": "Depende de la decisión que tome el DBA"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "MODELADO",
+        "number": 57,
+        "question": "Una tabla que no está en quinta forma normal",
+        "options": {
+            "a": "Puede estar en primera forma normal",
+            "b": "Puede estar en segunda forma normal",
+            "c": "Puede estar en tercera forma normal",
+            "d": "Puede estar en BCNF",
+            "e": "Puede tener dependencias funcionales parciales",
+            "f": "Todas las anteriores",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 58,
+        "question": "Un atributo polivalente",
+        "options": {
+            "a": "Puede tener cardinalidad mínima 1",
+            "b": "Puede tener cardinalidad mínima 0",
+            "c": "Puede tener cardinalidad máxima N",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "MODELADO",
+        "number": 59,
+        "question": "Un atributo compuesto",
+        "options": {
+            "a": "Debe aparecer en el modelo conceptual",
+            "b": "Debe aparecer en el modelo lógico",
+            "c": "Debe tener cardinalidad mínima igual a 0",
+            "d": "Debe tener cardinalidad mínima igual a 1",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "MODELADO",
+        "number": 60,
+        "question": "EL concepto de integridad referencial",
+        "options": {
+            "a": "Utiliza el concepto de clave foránea para su definición",
+            "b": "Permite definir una operación en cascada en caso de borrado o modificación que se vea influenciada",
+            "c": "Permite definir el concepto de restricción de borrado para la clave primaria",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna es correcta",
+            "g": "Se debe usar una función de agregación",
+            "h": "Se debe utilizar un INNER JOIN en el FROM",
+            "i": "Se controla que un conjunto contenga un elemento que pertenece al otro conjunto",
+            "j": "Todas las anteriores",
+            "k": "Algunas de las anteriores",
+            "l": "Ninguna de las anteriores"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 1,
+        "question": "Si en una consulta SQL se utiliza la cláusula EXCEPT",
+        "options": {
+            "a": "Se debe usar una función de agregación",
+            "b": "Se debe utilizar un INNER JOIN en el FROM",
+            "c": "Se controla que un conjunto contenga un elemento que pertenece al otro conjunto",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 2,
+        "question": "Sean dos tablas ALFA y BETA con un atributo común ART1, siendo ART1 Clave primaria en ALFA y clave. FORANEA en BETA. Cuál de las siguientes expresiones resulta más eficiente en cuanto a tiempo de respuesta",
+        "options": {
+            "a": "ALFA INNER JOIN BETA",
+            "b": "BETA INNER JOIN ALFA",
+            "c": "ALFA, BETA",
+            "d": "BETA, ALFA",
+            "e": "Hay más de una opción correcta"
+        },
+        "answer": "b"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 3,
+        "question": "Una sentencia de DML en SQL",
+        "options": {
+            "a": "Siempre debe tener una cláusula Select",
+            "b": "Siempre debe tener una cláusula Where",
+            "c": "Siempre debe tener una cláusula From",
+            "d": "Puede contener una cláusula CREATE TABLE",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 4,
+        "question": "La siguiente consulta SQL:. SELECT * FROM A FULL JOIN B ON (A.id = B.id)",
+        "options": {
+            "a": "Retorna una tabla vacía si A y B no tienen coincidencias en el atributo id",
+            "b": "Retorna solo las filas de A que tengan coincidencia con las filas de B en el atributo id",
+            "c": "Retorna solo las filas de A que no tengan coincidencia con las filas de B en el atributo id.",
+            "d": "Retorna todas las filas de A.",
+            "e": "Ninguna de las anteriores es correcta."
+        },
+        "answer": "a"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 5,
+        "question": "Dadas las siguientes tablas. Aviones (idavion, nroserie, idmodelo, idempresa, cantidad_asientos). Empresas (idempresa, nombre, id pais). Marcas (idmarca, nombre, idpais). Modelos (idmodelo, nombre, idmarca). Países (idpais, nombre). Qué devuelve la siguiente consulta:. SELECT p.nombre, a.nroserie. FROM paises p LEFT JOIN marcas  ma (ma.idpais = p.idpais). LEFT JOIN modelos mo (mo.idmarca = ma.idmarca). LEFT JOIN aviones a (a.idmodelo = mo.idmodelo ). WHERE mo.nombre = “AB319”  AND p.nombre LIKE “%nia”",
+        "options": {
+            "a": "Los países que terminan en nia más el número de serie de los aviones AB319.",
+            "b": "Los países que terminan en nia, más el número de serie de sus aviones.",
+            "c": "Los países que incluyen nia, más el número de serie de sus aviones AB319.",
+            "d": "Los países que incluyen nia, más mostrando ademas el número de serie de sus aviones AB319.",
+            "e": "Todos los países que terminan en nia, mostrando ademas el número de serie de sus aviones AB319 si los"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 6,
+        "question": "La cláusula EXIST",
+        "options": {
+            "a": "Permite controlar la existencia de un elemento particular dentro de un conjunto",
+            "b": "Permite controlar la existencia de elementos dentro de un conjunto",
+            "c": "Es una cláusula de definición de datos",
+            "d": "Todas las anteriores son correctas",
+            "e": "Algunas de las anteriores son correctas"
+        },
+        "answer": "b"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 7,
+        "question": "La operación intersección entre dos tablas A y B",
+        "options": {
+            "a": "Es una operación binaria",
+            "b": "Requiere que las tablas A y B tengan la misma cantidad de atributos",
+            "c": "Requiere que el i-ésimo atributo de A tenga el mismo dominio que el i-ésimo atributo de B",
+            "d": "Todas las anteriores",
+            "e": "Alguna de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 8,
+        "question": "Suponga que tiene las tablas. Alumnos = (idalumno, nombre, edad). Materias = (idmateria, nombre, año). Inscribe = (idalumno, idmateria).. Indique cual sentencia AR muestra al alumno con las materias en las que se inscribió (como referencia: P proyección, S selección, I intersección, R renombre)",
+        "options": {
+            "a": "P nombre (alumnos) |x| P nombre (materias)",
+            "b": "P alumnos.nombre, materias.nombre (alumnos |x| materias)",
+            "c": "P nombre (alumnos) |x| P nombre (materias) |x| inscribe",
+            "d": "P nombre (alumnos |x| materias |x| inscribe)",
+            "e": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 9,
+        "question": "Las funciones de agregación en una consulta SQL",
+        "options": {
+            "a": "Pueden ir en el SELECT",
+            "b": "Pueden ir en el WHERE",
+            "c": "Pueden ir en el HAVING",
+            "d": "Deben aparecer sin otros atributos en el SELECT",
+            "e": "Todas son correctas",
+            "f": "A, C y D son correctas",
+            "g": "A, B y C son correctas",
+            "h": "A y C son correctas"
+        },
+        "answer": "h"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 10,
+        "question": "Dadas las siguientes tablas. Naves (idnave, nroserie, idcia, cant_max_pasajeros). Compañías (idcia, nombre, idpais). Paises (idpaís, nombre). Qué devuelve la siguiente consulta:. SELECT idcia, count(*). FROM naves, companias. WHERE pais.nombre=\"Italia\" and. naves.idcia=companias.idcia. GROUP BY idcia. Having (count (*) <0)",
+        "options": {
+            "a": "Compañías que no tienen naves",
+            "b": "Compañías de Italia que no tienen naves",
+            "c": "Cantidad de naves de compañías italianas",
+            "d": "Cantidad de tuplas de la tabla Naves de las compañías italianas",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 11,
+        "question": "Cual de las siguientes sentencias no corresponde al DDL de SQL",
+        "options": {
+            "a": "CREATE DATABASE....",
+            "b": "CREATE TABLE....",
+            "c": "DROP TABLE ...",
+            "d": "UPDATE TABLA...",
+            "e": "ALTER TABLE"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 12,
+        "question": "Dadas las siguientes tablas. Aviones (idavion, nroserie, idmodelo, idempresa, cantidad_asientos). Empresas (idempresa, nombre, idpais). Marcas (idmarca, nombre, idpais). Modelos (idmodelo, nombre, idmarca). Paises (idpais, nombre). Cuál de las siguientes consultas SQL tiene error.",
+        "options": {
+            "a": "SELECT e.idempresa, AVG( cantidad_asientos )",
+            "b": "SELECT COUNT (DISTINCT (e.idempresa) )",
+            "c": "SELECT e.nombre, COUNT( * )",
+            "d": "SELECT e.nombre, COUNT( * )"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 13,
+        "question": "Suponga que tiene las tablas. Alumnos = (idalumno, nombre, edad). Materias = (idmateria, nombre, año). Inscribe = (idalumno, idmateria, nota).. Indique cual sentencia AR muestra al alumno con las materias que aprobó (como referencia: P proyección, S selección, I intersección, R renombre)",
+        "options": {
+            "a": "P alumnos.nombre ( S nota >= 4 (alumnos |x| inscripciones |x| materias ) )",
+            "b": "P nombre (S nota >= 4 (alumnos |x| inscripciones |x| materias))",
+            "c": "P alumnos.nombre (S nota >= 4 (alumnos |x| inscripciones ) )",
+            "d": "P alumnos.nombre, materias.nombre (S nota >= 4 (alumnos |x| inscripciones |x| materias ) )",
+            "e": "Ninguna de las anteriores lo responde"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 14,
+        "question": "Dadas las siguientes tablas. Aviones (idavion, nroserie, idmodelo, idempresa, cantidad_asientos). Empresas (idempresa, nombre, id pais). Marcas (idmarca, nombre, idpais). Modelos (idmodelo, nombre, idmarca). Paises ( idpais, nombre). Cuál de las siguientes consultas SQL no devuelve la cantidad de aviones por compañia.",
+        "options": {
+            "a": "SELECT a.idempresa, COUNT( * )",
+            "b": "SELECT e.idempresa, COUNT( * )",
+            "c": "SELECT e.nombre, COUNT( * )",
+            "d": "SELECT e.nombre, COUNT( * )"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 15,
+        "question": "Dadas dos tablas A y B con un atributo en común (M) que es FK en A y B. Si tanto A como B tienen algunos valores Nulos para M. Si A tiene 1000 tuplas y B tiene 100 Tuplas, la consulta. SELECT * FROM A FULL OUTER JOIN B ON (A.M = B.M), retorna",
+        "options": {
+            "a": "Más de 1000 tuplas",
+            "b": "Menos de 1000 tuplas",
+            "c": "1000 tuplas",
+            "d": "1100 Tuplas",
+            "e": "No tengo datos para responder"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 16,
+        "question": "El operador Producto Natural del Algebra Relacional",
+        "options": {
+            "a": "Permite relacionar dos tablas con un solo atributo en común",
+            "b": "Permite relacionar todas las tuplas de una tabla con todas las tuplas de otra tabla",
+            "c": "Permite realizar la operación matemática de Producto Cartesiano entre 2 conjuntos",
+            "d": "Permite relacionar 2 tablas sin atributos en común",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 17,
+        "question": "En algebra relacional la expresión B – (A– B) es equivalente a:",
+        "options": {
+            "a": "B U A",
+            "b": "(A-B) U (B-A)",
+            "c": "(BXA) U A",
+            "d": "A ∩ B",
+            "e": "A - B",
+            "f": "B - A",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "h"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 18,
+        "question": "En algebra relacional la expresión B – (A– B) es equivalente a:",
+        "options": {
+            "a": "B U A",
+            "b": "(A-B) U (B-A)",
+            "c": "(BXA) U A",
+            "d": "A ∩ B",
+            "e": "A",
+            "f": "B - A",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "h"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 19,
+        "question": "La siguiente consulta SQL:. SELECT *. FROM A RIGTH JOIN B ON (A.id = B.id)",
+        "options": {
+            "a": "Retorna una tabla vacía si A y B no tienen coincidencias en el atributo id.",
+            "b": "Retorna solo las filas de A que tengan coincidencia con las filas de B en el atributo id.",
+            "c": "Retorna solo las filas de B que no tengan coincidencia con las filas de A en el atributo id.",
+            "d": "Retorna todas las filas de B."
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 20,
+        "question": "Dadas las siguientes tablas. Naves (idnave, nroserie, idcia, cant_max_pasajeros). Compañías (idcia, nombre, idpais). Paises ( idpais, nombre). Qué devuelve la siguiente consulta:. SELECT count (*). FROM naves, companias. WHERE pais.nombre=\"Noruega\" and. naves.idcia=companias.idcia",
+        "options": {
+            "a": "Cantidad de naves total",
+            "b": "Cantidad de naves de Noruega",
+            "c": "Cantidad de naves de un país",
+            "d": "Cantidad de naves de todos los países",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 21,
+        "question": "Si en una consulta SQL se utiliza la cláusula UNION",
+        "options": {
+            "a": "Se debe usar una función de agregación",
+            "b": "Se debe utilizar un INNER JOIN en el FROM",
+            "c": "Se controla que un conjunto contenga un elemento que no pertenece al otro conjunto",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 22,
+        "question": "Dado A│X│B",
+        "options": {
+            "a": "Es equivalente a A X B siempre que B y A tengan atributos en común",
+            "b": "Genera el mismo resultado que A X B",
+            "c": "Genera el mismo resultado que B X A",
+            "d": "Es equivalente a B X siempre que B y A tengan el mismo esquema",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 23,
+        "question": "Suponga que tiene las tablas. Alumnos = (idalumno, nombre, edad). Materias = (idmateria, nombre, año). Inscribe = (idalumno, idmateria).. Indique cual sentencia AR muestra al alumno con las materias en las que se inscribió (como referencia: P proyección, S selección, I intersección, R renombre)",
+        "options": {
+            "a": "P nombre (alumnos) |x| P nombre (materias)",
+            "b": "P alumnos.nombre, materias.nombre (alumnos |x| materias)",
+            "c": "P nombre (alumnos) |x| P nombre (materias) |x| inscribe",
+            "d": "P nombre (alumnos |x| materias |x| inscribe)",
+            "e": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 24,
+        "question": "Dadas dos tablas A y B con un atributo en común (M) que es FK en A y B. Si tanto A como B tienen algunos valores Nulos para M. Si A tiene 1000 tuplas y B tiene 100 Tuplas, la consulta SELECT * FROM A. FULL OUTER JOIN B ON (A.M = B.M), retorna",
+        "options": {
+            "a": "Mas de 1000 tuplas",
+            "b": "Menos de 1000 tuplas",
+            "c": "1000 tuplas",
+            "d": "1100 Tuplas",
+            "e": "No tengo datos para responder"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 25,
+        "question": "Cual de las siguientes sentencias corresponde al DDL de SQL",
+        "options": {
+            "a": "INSERT INTO TABLA ....",
+            "b": "DELETE FROM TABLA....",
+            "c": "DROP TABLE ...",
+            "d": "UPDATE TABLA..."
+        },
+        "answer": "c"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 26,
+        "question": "Dadas las siguiente tablas. Aviones (idavion, nroserie, idmodelo, idempresa, cantidad_asientos). Empresas (idempresa, nombre, id pais). Marcas (idmarca, nombre, idpais). Modelos (idmodelo, nombre, idmarca). Paises ( idpais, nombre). Cuál de las siguientes consultas SQL devuelve la cantidad de asientos que tiene la empresa  LATAM en aviones boeing. a.. SELECT SUM (asientos). FROM aviones a INNER JOIN empresas e ON (a.idempresa = e.idempresa). INNER JOIN marcas ma ON (ma.idmarca = mo.idmarca). INNER JOIN modelos mo ON (mo.idmodelo = a.idmodelo). WHERE e.nombre =\"LATAM\" AND ma.nombre = \"Boeing\" b.. SELECT SUM (asientos). FROM aviones a INNER JOIN modelos mo ON (mo.idmodelo = a.idmodelo). INNER JOIN marcas ma ON (ma.idmarca = mo.idmarca). WHERE ma.nombre = “Boeing” AND a.idempresa IN ( SELECT idempresa. FROM empresas. WHERE nombre = “LATAM”) c.. SELECT SUM (asientos). FROM aviones a INNER JOIN modelos mo ON (mo.idmodelo = a.idmodelo). WHERE mo.idmarca IN (SELECT nombre. FROM marcas. WHERE nombre = “Boeing”). AND a.idempresa IN ( SELECT idempresa. FROM empresas. WHERE nombre = “LATAM”)",
+        "options": {
+            "a": "SELECT COUNT (asientos)"
+        },
+        "answer": "b"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 27,
+        "question": "La operación SELECT entre dos tablas A y B",
+        "options": {
+            "a": "Es una operación binaria",
+            "b": "Requiere que las tablas A y B tengan la misma cantidad de atributos",
+            "c": "Requiere que el i-ésimo atributo de A tenga el mismo dominio que el i-ésimo atributo de B",
+            "d": "Todas las anteriores",
+            "e": "Alguna de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 28,
+        "question": "Dadas las siguientes tablas. Naves (idnave, nroserie, idcia, cant_max_pasajeros). Companías (idcia, nombre, idpais). Paises (idpais, nombre). Que devuelve la siguiente consulta:. SELECT sum(can_max_pasajeros). FROM naves, companias. WHERE pais.nombre=\"Italia\" and. naves.idcia=companias.idcia",
+        "options": {
+            "a": "Cantidad máxima de pasajeros totales",
+            "b": "Cantidad máxima de pasajeros de Italia",
+            "c": "Cantidad máxima de pasajeros de un país",
+            "d": "Cantidad máxima de pasajeros de todos los países",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 29,
+        "question": "En algebra relacional la expresión B – (A– B) es equivalente a:",
+        "options": {
+            "a": "B U A",
+            "b": "(A-B) U (B-A)",
+            "c": "(BXA) U A",
+            "d": "A ∩ B",
+            "e": "A - B",
+            "f": "B - A",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "h"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 30,
+        "question": "La cláusula IN",
+        "options": {
+            "a": "Necesita de una subconsulta",
+            "b": "Permite controlar la existencia de un elemento particular dentro de un conjunto",
+            "c": "Es una cláusula de manipulación de datos",
+            "d": "Todas las anteriores son correctas",
+            "e": "Algunas de las anteriores son correctas"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 31,
+        "question": "Dadas las siguientes tablas. Aviones (idavion, nroserie, idmodelo, idempresa, cantidad_asientos). Empresas (idempresa, nombre, idpais). Marcas (idmarca, nombre, idpais). Modelos (idmodelo, nombre, idmarca). Paises (idpais, nombre). Cuál de las siguientes consultas SQL devuelve la cantidad de asientos total de cada compañia en aviones brasileros",
+        "options": {
+            "a": "SELECT e.idempresa, SUM ( a.cantidad_asientos)",
+            "b": "SELECT e.idempresa, SUM ( a.cantidad_asientos)",
+            "c": "SELECT e.idempresa, SUM ( a.cantidad_asientos)",
+            "d": "SELECT e.idempresa, SUM ( a.cantidad_asientos)"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 32,
+        "question": "El operador Producto Natural del Algebra Relacional",
+        "options": {
+            "a": "Permite relacionar dos tablas con un solo atributo en común",
+            "b": "Permite relacionar todas las tuplas de una tabla con todas las tuplas de otra tabla",
+            "c": "Permite realizar la operación matemática de Producto Cartesiano entre 2 conjuntos",
+            "d": "Permite relacionar 2 tablas sin atributos en común",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 33,
+        "question": "Si en una consulta SQL se utiliza la cláusula Group By",
+        "options": {
+            "a": "Se debe usar una cláusula HAVING",
+            "b": "Se puede indicar la condición del grupo en la cláusula WHERE",
+            "c": "Se debe utilizar al menos una función de agregación",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 34,
+        "question": "La siguiente consulta SQL:. SELECT *. FROM A LEFT JOIN B ON (A.id = B.id)",
+        "options": {
+            "a": "Retorna una tabla vacía si A y B no tienen coincidencias en el atributo id",
+            "b": "Retorna solo las filas de A que tengan coincidencia con las filas de B en el atributo id",
+            "c": "Retorna solo las filas de B que no tengan coincidencia con las filas de A en el atributo id.",
+            "d": "Retorna todas las filas de A."
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 35,
+        "question": "La cláusula EXIST",
+        "options": {
+            "a": "Permite controlar la existencia de un elemento particular dentro de un conjunto",
+            "b": "Permite controla la existencia de elementos dentro de un conjunto",
+            "c": "Es una cláusula de definición de datos",
+            "d": "Todas las anteriores son correctas",
+            "e": "Algunas de las anteriores son correctas"
+        },
+        "answer": "b"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 36,
+        "question": "Suponga que dispone de dos tablas A y B, y que las mismas comparten un atributo común (M) que es. Foreing Key en ambas.  Si se mide eficiencia como tiempo de respuesta,",
+        "options": {
+            "a": "A x B es igual de eficiente que B x A",
+            "b": "A |x| B puede ser más eficiente que B |x| A",
+            "c": "A |x| B es más eficiente que B |x| A si V (M, A) es menor que V (M, B)",
+            "d": "Todas son correctas",
+            "e": "Algunas de las anteriores son correctas"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 37,
+        "question": "La operación diferencia entre dos tablas A y B",
+        "options": {
+            "a": "Es una operación binaria",
+            "b": "Requiere que las tablas A y B tengan la misma cantidad de atributos",
+            "c": "Requiere que el i-ésimo atributo de A tenga el mismo dominio que el i-ésimo atributo de B",
+            "d": "Todas las anteriores",
+            "e": "Alguna de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 38,
+        "question": "Suponga que tiene las tablas. Alumnos = (idalumno, nombre, edad). Materias = (idmateria, nombre, año). Inscribe = (idalumno, idmateria, nota).. Indique cual sentencia AR muestra al alumno que aprobó materias (como referencia: P proyección, S selección, I intersección, R renombre)",
+        "options": {
+            "a": "P alumnos.nombre( S nota >= 4(alumnos |x| inscripciones |x| materias ))",
+            "b": "P nombre (S nota >= 4(alumnos |x| inscripciones |x| materias))",
+            "c": "P nombre (S nota >= 4(alumnos |x| inscripciones))",
+            "d": "P alumnos.nombre(S nota >= 4(alumnos |x| inscripciones  ))",
+            "e": "Algunas de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 39,
+        "question": "Si en una consulta SQL se utiliza la cláusula IN",
+        "options": {
+            "a": "Se debe usar una función de agregación",
+            "b": "Se debe utilizar un INNER JOIN en el FROM",
+            "c": "Se controla que un conjunto contenga al menos un elemento",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 40,
+        "question": "Una sentencia de DML en SQL",
+        "options": {
+            "a": "Puede tener una cláusula Select",
+            "b": "Puede tener una cláusula Where",
+            "c": "Puede tener una cláusula From",
+            "d": "Puede contener una cláusula Insert",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 41,
+        "question": "La siguiente consulta SQL:. SELECT *. FROM A LEFT JOIN B ON (A.id = B.id)",
+        "options": {
+            "a": "Retorna una tabla vacía si A y B no tienen coincidencias en el atributo id",
+            "b": "Retorna solo las filas de A que tengan coincidencia con las filas de B en el atributo id",
+            "c": "Retorna solo las filas de B que no tengan coincidencia con las filas de A en el atributo id.",
+            "d": "Retorna todas las filas de A."
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 42,
+        "question": "Dadas las siguientes tablas. Aviones (idavion, nroserie, idmodelo, idempresa, cantidad_asientos). Empresas (idempresa, nombre, id pais). Marcas (idmarca, nombre, idpais). Modelos (idmodelo, nombre, idmarca). Paises (idpais, nombre). Que devuelve la siguiente consulta:. SELECT p.nombre, a.nroserie. FROM paises p LEFT JOIN marcas ma (ma.idpais = p.idpais). LEFT JOIN modelos mo (mo.idmarca = ma.idmarca). LEFT JOIN aviones a (a.idmodelo = mo.idmodelo ). WHERE mo.nombre = “AB319”  AND p.nombre LIKE “%nia”",
+        "options": {
+            "a": "Los países que terminan en nia más el número de serie de los aviones AB319",
+            "b": "Los países que terminan en nia, más el número de serie de sus aviones",
+            "c": "Los países que incluyen nia, más el número de serie de sus aviones AB319",
+            "d": "Los países que incluyen nia, más mostrando además el número de serie de sus aviones AB319.",
+            "e": "Todos los países que terminan en nia, mostrando además el número de serie de sus aviones AB319 si los"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 43,
+        "question": "Dadas las tablas. Clientes = (Idcliente, nombre, direccion, telefono, idlocalidad) idlocalidad es FK y no puede tener valor nulo. Facturas = (idfactura, nro, monto, fecha, idcliente )   Idcliente es FK y puede tener valores nulos. Renglones = (idrenglon, idfactura, idproducto, cantidad, montounitario) idfactura y idproducto es FK y no puede tener valor nulo. Productos = (idproducto, codigo, descripcion, stock, precioventa, idproveedor) idproveedor es FK y puede tener valornulos. Proveedor = (idproveedor, nombre, direccion, telefono, idlocalidad) idlocalidad es FK y no puede tener valor nulo. Ciudad = (idciudad, nombre, poblacion). Cuál de las siguientes consultas de AR retorna los nombres de clientes que compraron a proveedores de La. Plata (como referencia: P proyección, S selección, I intersección, R renombre)",
+        "options": {
+            "a": "Pc.nombre ( Sl.nombre=”la Plata” (Rc (clientes)|x|Rf(facturas)|x|Rr",
+            "b": "Pc.nombre ( Sl.nombre=”la Plata” (Rc (clientes)|x|Rf(facturas)|x|Rpr(productos)|x|Rpv",
+            "c": "Pciudad.nombre ( Sciudad.nombre=”la Plata” ( clientes |x| facturas |x|renglones |x| productos)|x|",
+            "d": "Pc.nombre ( Sl.nombre=”la Plata” (Rc (clientes)|x|Rf(facturas)|x|Rr (renglones) x"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 44,
+        "question": "En algebra relacional la expresión B – (A– B) es equivalente a:",
+        "options": {
+            "a": "B U A",
+            "b": "(A-B) U (B-A)",
+            "c": "(BXA) U A",
+            "d": "A ∩ B",
+            "e": "A - B",
+            "f": "B - A",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "h"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 45,
+        "question": "Dadas las siguientes tablas. Aviones (idavion, nroserie, idmodelo, idempresa, cantidad_asientos). Empresas (idempresa, nombre, id pais). Marcas (idmarca, nombre, idpais). Modelos (idmodelo, nombre, idmarca). Paises (idpais, nombre). Que devuelve la siguiente consulta:. SELECT e.nombre. FROM empresa. WHERE NOT EXIST ( SELECT *. FROM modelo. WHERE NOT EXIST ( SELECT *. FROM aviones. WHERE aviones.idmodelo = modelo.idmodelo AND aviones.idempresa = empresa.idempresa) )",
+        "options": {
+            "a": "Mostrar las empresas que tienen aviones de todas las marcas",
+            "b": "Mostrar las empresas que tiene modelos de todos los aviones",
+            "c": "Mostrar las empresas que tienen aviones de todos los modelos",
+            "d": "Mostrar las empresas cuyos modelos de aviones están en la base de datos"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 46,
+        "question": "La cláusula IN",
+        "options": {
+            "a": "Necesita de una subconsulta",
+            "b": "Permite controlar la existencia de un elemento particular dentro de un conjunto",
+            "c": "Es una cláusula de manipulación de datos",
+            "d": "Todas las anteriores son correctas",
+            "e": "Algunas de las anteriores son correctas"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 47,
+        "question": "Cual de las siguientes sentencias no corresponde al DDL de SQL",
+        "options": {
+            "a": "CREATE DATABASE....",
+            "b": "CREATE TABLE....",
+            "c": "DROP TABLE ...",
+            "d": "UPDATE TABLA...",
+            "e": "ALTER TABLE"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 48,
+        "question": "En algebra relaciona la expresión A |x| B da el mismo resultado que:",
+        "options": {
+            "a": "A x B",
+            "b": "A x B si entre las tablas A y B no hay atributo común",
+            "c": "B |x| A",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las Anteriores",
+            "f": "Ninguna de las anteriores."
+        },
+        "answer": "e"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 49,
+        "question": "Dadas las siguientes tablas. Aviones (idavion, nroserie, idmodelo, idempresa, cantidad_asientos). Empresas (idempresa, nombre, id pais). Marcas (idmarca, nombre, idpais). Modelos (idmodelo, nombre, idmarca). Paises ( idpais, nombre). Cuál de las siguientes consultas SQL devuelve la cantidad de aviones de cada compañia",
+        "options": {
+            "a": "SELECT COUNT (*)",
+            "b": "SELECT e.nombre, COUNT (*)",
+            "c": "SELECT e.nombre, COUNT (*)",
+            "d": "SELECT e.idempresa, COUNT (*)"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 50,
+        "question": "Una sentencia de DML en SQL",
+        "options": {
+            "a": "Siempre debe tener una cláusula Select",
+            "b": "Siempre debe tener una cláusula Where",
+            "c": "Siempre debe tener una cláusula From",
+            "d": "Puede contener una cláusula CREATE TABLE",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 51,
+        "question": "Dadas las siguientes tablas. Aviones (idavion, nroserie, idmodelo, idempresa, cantidad_asientos). Empresas (idempresa, nombre, id pais). Marcas (idmarca, nombre, idpais). Modelos (idmodelo, nombre, idmarca). Paises (idpais, nombre). Cuál de las siguientes consultas SQL no devuelve la cantidad de aviones por compañia.",
+        "options": {
+            "a": "SELECT a.idempresa, COUNT( * )",
+            "b": "SELECT e.idempresa, COUNT( * )",
+            "c": "SELECT e.nombre, COUNT( * )",
+            "d": "SELECT e.nombre, COUNT( * )"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 52,
+        "question": "Suponga que tiene las tablas. Alumnos = (idalumno, nombre, edad). Materias = (idmateria, nombre, año). Inscribe = (idalumno, idmateria, nota).. Indique cual sentencia AR muestra al alumno que aprobó materias (como referencia: P proyección, S selección, I intersección, R renombre)",
+        "options": {
+            "a": "P alumnos.nombre( S nota >= 4(alumnos |x| inscripciones |x| materias ) )",
+            "b": "Pnombre( S nota >= 4(alumnos |x| inscripciones |x| materias ) )",
+            "c": "P nombre( S nota >= 4(alumnos |x| inscripciones  ) )",
+            "d": "Palumnos.ombre( S nota >= 4(alumnos |x| inscripciones  ) )",
+            "e": "Algunas de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 53,
+        "question": "Las funciones de agregación",
+        "options": {
+            "a": "Aparecen en el SELECT",
+            "b": "Aparecen en el WHERE",
+            "c": "Necesariamente deben aparecer sin otro atributo adicional cuando están en el SELECT",
+            "d": "Pueden aparecen en el WHERE si la sentencia SQL tiene un GROUP BY",
+            "e": "Algunas de las anteriores"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 54,
+        "question": "La cláusula IN",
+        "options": {
+            "a": "Permite controlar la existencia de un elemento particular dentro de un conjunto",
+            "b": "Permite controla la existencia de elementos dentro de un conjunto",
+            "c": "Es una cláusula de definición de datos",
+            "d": "Todas las anteriores son correctas",
+            "e": "Algunas de las anteriores son correctas"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 55,
+        "question": "El producto A |x| B requiere",
+        "options": {
+            "a": "que ambas tablas tengan igual cantidad de atributos",
+            "b": "que entre las dos tablas solo aparezca un atributo del mismo",
+            "c": "que entre las dos tablas haya un atributo común, que sea del mismo tipo",
+            "d": "que haya en ambas tablas un atributo que se llama igual, aunque no sea del mismo tipo",
+            "e": "que entre ambas tablas haya un atributo común, esto es. que se llame igual y sea del mismo tipo"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 56,
+        "question": "Si en una consulta SQL se utiliza la cláusula Group By",
+        "options": {
+            "a": "Se debe usar una cláusula HAVING",
+            "b": "Se puede indicar la condición del grupo en la cláusula WHERE",
+            "c": "Se debe utilizar al menos una función de agregación",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 57,
+        "question": "Si en una consulta SQL se utiliza la cláusula EXCEPT",
+        "options": {
+            "a": "Se debe usar una función de agregación",
+            "b": "Se debe utilizar un INNER JOIN en el FROM",
+            "c": "Se controla que un conjunto contenga un elemento que pertenece al otro conjunto",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 58,
+        "question": "La operación de diferencia en álgebra relacional",
+        "options": {
+            "a": "puede usarse para eliminar elementos de una tabla",
+            "b": "debe generarse entre dos conjuntos (tablas) equivalentes, lo que se denomina unión compatible",
+            "c": "puede hacerse entre conjuntos (tablas) que no tengan la misma cantidad de atributos, siempre y cuando sean",
+            "d": "todas las anteriores",
+            "e": "algunas de las anteriores son validas"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 59,
+        "question": "En algebra relaciona la expresión A |x| B da el mismo resultado que:",
+        "options": {
+            "a": "A x B",
+            "b": "A x B si entre las tablas A y B no hay atributo común",
+            "c": "B |x| A",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las Anteriores",
+            "f": "Ninguna de las anteriores."
+        },
+        "answer": "e"
+    },
+    {
+        "module": "CONSULTAS",
+        "number": 60,
+        "question": "Un producto cartesiano entres dos tablas",
+        "options": {
+            "a": "siempre se puede aplicar, sea cuales fueran las tablas",
+            "b": "si se hace entre dos tablas con un atributo común (FK, PK) requiere eliminar las tuplas espurias generadas para",
+            "c": "es más costoso de hacer que un producto natural en términos de tiempo de ejecución de maquina",
+            "d": "todas las anteriores",
+            "e": "ninguna de las anteriores"
+        },
+        "answer": "d"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 1,
+        "question": "Si se produce inanición",
+        "options": {
+            "a": "Previamente se produjo deadlock",
+            "b": "Previamente no se produjo deadlock",
+            "c": "Se debe limitar el uso de bloqueos",
+            "d": "Se debe limitar el uso de bloqueos exclusivos",
+            "e": "Se debe limitar el uso de bloqueos compartidos",
+            "f": "Todas las anteriores",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "h"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 2,
+        "question": "Sea una transacción cuya HDE es 14. ¿Suponga que la transacción quiere escribir el dato Q, en cuál de los siguientes casos, la operación da éxito?",
+        "options": {
+            "a": "HR(Q) = 10, HW(Q) = 13",
+            "b": "HR(Q) = 15, HW(Q) = 13",
+            "c": "HR(Q) = 13, HW(Q) = 15",
+            "d": "Todas las anteriores son validas",
+            "e": "ninguna de las anteriores es validas"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 3,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "Garantiza que una transacción no puede fallar",
+            "b": "Solo se aplica en ambientes concurrentes",
+            "c": "Garantiza el cometido de una transacción",
+            "d": "Solo se aplica en ambientes monousuario",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 4,
+        "question": "La propiedad de durabilidad",
+        "options": {
+            "a": "Asegura que una transacción finalizada no puede volver a ejecutarse",
+            "b": "Asegura que una transacción no interfiera con otra durante su ejecución",
+            "c": "Asegura que una transacción se ejecutó completamente si no hubo errores",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 5,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "se puede asegurar con el uso de una bitácora",
+            "b": "se puede asegurar con el uso del método de doble paginación",
+            "c": "se puede asegurar con el protocolo de HDE",
+            "d": "se puede asegurar con el protocolo de dos fases",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 6,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "Garantiza que una transacción no puede fallar",
+            "b": "Garantiza que una transacción no va a abortar",
+            "c": "Garantiza el cometido de una transacción",
+            "d": "Garantiza que una transacción activa no fallará",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 7,
+        "question": "El protocolo de Hora de Entrada",
+        "options": {
+            "a": "Se aplica en casos de deadlock",
+            "b": "Se aplica en casos de inanición",
+            "c": "Solo admite bloqueos compartidos",
+            "d": "Admite bloqueos exclusivos",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 8,
+        "question": "El protocolo de doble paginación",
+        "options": {
+            "a": "Evita la pérdida de consistencia de la BD",
+            "b": "Asegura la atomicidad de una transacción",
+            "c": "Garantiza el aislamiento de una transacción",
+            "d": "Asegura la durabilidad de una transacción",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 9,
+        "question": "Un checkpoint en ambientes concurrentes",
+        "options": {
+            "a": "Solo se genera sino hay transacciones activas",
+            "b": "Solo se genera si hay a lo sumo 2 transacciones activas",
+            "c": "Se aplica en el protocolo de doble paginación",
+            "d": "No requiere el uso de bitácora",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 10,
+        "question": "Una transacción que alcanza el estado de abortada",
+        "options": {
+            "a": "Puede volver a activa, si el protocolo de HDE lo permite",
+            "b": "Alcanzó el estado de parcialmente abortada y aborto por un fallo en el sistema",
+            "c": "Alcanzo el estado de fallada, posteriormente a haberse ejecutado total o parcialmente en memoria RAM",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 11,
+        "question": "El protocolo de Hora de Entrada",
+        "options": {
+            "a": "Se aplica en ambientes monousuarios para tratar errores",
+            "b": "Asegura que una transacción no falle",
+            "c": "Garantiza el aislamiento de una transacción monousuaria",
+            "d": "Asegura la durabilidad de una transacción fallada",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 12,
+        "question": "El protocolo de modificación inmediata de la BD",
+        "options": {
+            "a": "Genera una bitácora con menos información que el protocolo de modificación diferida",
+            "b": "Requiere de menos procedimientos para la recuperación que le protocolo de modificación diferida",
+            "c": "Es la peor variante del protocolo basado en registro histórico",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 13,
+        "question": "El protocolo de doble paginación",
+        "options": {
+            "a": "Sólo admite bloqueos compartidos",
+            "b": "Sólo admite bloqueos exclusivos",
+            "c": "Permite resolver situaciones de deadlock",
+            "d": "No permite resolver situaciones de inanición",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 14,
+        "question": "La propiedad de idempotencia",
+        "options": {
+            "a": "Se aplica sólo en entornos concurrentes",
+            "b": "Evita errores en la ejecución de transacciones",
+            "c": "Asegura la durabilidad de transacciones",
+            "d": "Restringe la consistencia de transacciones",
+            "e": "Asegura el aislamiento de transacciones",
+            "f": "Todas las anteriores",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "h"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 15,
+        "question": "Quienes son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 16,
+        "question": "La propiedad de aislamiento",
+        "options": {
+            "a": "Asegura que una transacción finalizada no puede volver a ejecutarse",
+            "b": "Asegura que una transacción interfiera con otra durante su ejecución",
+            "c": "Asegura que una transacción se ejecutó completamente si no hubo errores",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 17,
+        "question": "El protocolo de modificación diferida de la BD",
+        "options": {
+            "a": "Genera una bitácora con más información que el protocolo de modificación inmediata",
+            "b": "Requiere de más procedimientos para la recuperación que le protocolo de modificación inmediata",
+            "c": "Es la mejor variante del protocolo basado en registro histórico",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 18,
+        "question": "Una transacción que alcanza el estado de abortada",
+        "options": {
+            "a": "Puede volver a activa",
+            "b": "Alcanzó el estado de parcialmente abortada",
+            "c": "Puede haber alcanzado el estado de fallada",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 19,
+        "question": "El protocolo de Hora de Entrada",
+        "options": {
+            "a": "Se aplica en casos de deadlock",
+            "b": "Se aplica en casos de inanición",
+            "c": "Solo admite bloqueos compartidos",
+            "d": "Admite bloqueos exclusivos",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 20,
+        "question": "El protocolo de dos fases",
+        "options": {
+            "a": "Sólo admite bloqueos compartidos",
+            "b": "Sólo admite bloqueos exclusivos",
+            "c": "Evita situaciones de deadlock",
+            "d": "Evita situaciones de inanición",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 21,
+        "question": "Quienes son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 22,
+        "question": "La propiedad de idempotencia",
+        "options": {
+            "a": "Se puede aplicar cuando se utiliza el protocolo de Hora de Entrada",
+            "b": "Se puede aplicar cuando se utiliza el protocolo de bloqueo de dos fases",
+            "c": "Se puede aplicar en entornos monousuarios",
+            "d": "Se puede aplicar en el protocolo de doble paginación",
+            "e": "Todas las anteriores son válidas",
+            "f": "Algunas de las anteriores son validas",
+            "g": "Ninguna de las anteriores son validas"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 23,
+        "question": "La propiedad de aislamiento",
+        "options": {
+            "a": "Se aplica en un ambiente monousuario",
+            "b": "Se aplica a veces en un ambiente concurrente",
+            "c": "No se aplica en un ambiente monousuario",
+            "d": "No se aplica en un ambiente concurrente",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 24,
+        "question": "Sea una transacción cuya HDE es 14. ¿Suponga que la transacción quiere escribir el dato Q, en cuál de los siguientes casos, la operación da éxito?",
+        "options": {
+            "a": "HR(Q) = 10, HW(Q) = 13",
+            "b": "HR(Q) = 15, HW(Q) = 13",
+            "c": "HR(Q) = 13, HW(Q) = 15",
+            "d": "Todas las anteriores son validas",
+            "e": "ninguna de las anteriores es validas"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 25,
+        "question": "Quienes no son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 26,
+        "question": "El protocolo de modificación diferida de la BD",
+        "options": {
+            "a": "Genera una bitácora con más información que el protocolo de modificación inmediata",
+            "b": "Requiere de más procedimientos para la recuperación que le protocolo de modificación inmediata",
+            "c": "Es la peor variante del protocolo basado en registro histórico",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 27,
+        "question": "Si se produce inanición de una transacción en un ambiente monousuario",
+        "options": {
+            "a": "Se puede producir deadlock",
+            "b": "No se puede producir deadlock",
+            "c": "Se debe abortar la ejecución de dicha transacción",
+            "d": "No se debe abortar la ejecución de dicha transacción",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 28,
+        "question": "El protocolo de dos fases",
+        "options": {
+            "a": "Sólo admite bloqueos compartidos",
+            "b": "Sólo admite bloqueos exclusivos",
+            "c": "Evita situaciones de deadlock",
+            "d": "Evita situaciones de inanición",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 29,
+        "question": "El protocolo de Hora de Entrada",
+        "options": {
+            "a": "Se aplica en ambientes monousuarios para tratar errores",
+            "b": "Asegura que una transacción no falle",
+            "c": "Garantiza el aislamiento de una transacción monousuaria",
+            "d": "Asegura la durabilidad de una transacción fallada",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 30,
+        "question": "Una transacción que se ejecuta utilizando el protocolo de hora de entrada",
+        "options": {
+            "a": "Puede tener Commits y aborts en la bitácora",
+            "b": "Puede utilizar el protocolo de dos fases para controlar aislamiento",
+            "c": "Puede tener checkpoints en la bitácora",
+            "d": "Todas las anteriores son validas",
+            "e": "Algunas de las anteriores son validas",
+            "f": "La pregunta es incompatible con las opciones a, b y c"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 31,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "se puede asegurar con el uso de una bitácora",
+            "b": "se puede asegurar con el uso del método de doble paginación",
+            "c": "se puede asegurar con el protocolo de HDE",
+            "d": "se puede asegurar con el protocolo de dos fases",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 32,
+        "question": "Un checkpoint en ambientes concurrentes",
+        "options": {
+            "a": "Solo se genera sino hay transacciones activas",
+            "b": "Solo se genera si hay a lo sumo 2 transacciones activas",
+            "c": "Se aplica en el protocolo de doble paginación",
+            "d": "No requiere el uso de bitácora",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 33,
+        "question": "Quienes son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 34,
+        "question": "Una transacción que se ejecuta utilizando el protocolo de hora de entrada",
+        "options": {
+            "a": "Puede tener Commits y aborts en la bitácora",
+            "b": "Puede utilizar el protocolo de dos fases para controlar aislamiento",
+            "c": "Puede tener checkpoints en la bitácora",
+            "d": "Todas las anteriores son validas",
+            "e": "Algunas de las anteriores son validas",
+            "f": "La pregunta es incompatible con las opciones a, b y c"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 35,
+        "question": "Sea una transacción cuya HDE es 14. Suponga que la transacción quiere escribir el dato Q, ¿en cuál de los siguientes casos, la operación da éxito?",
+        "options": {
+            "a": "HR(Q) = 15, HW(Q) = 13",
+            "b": "HR(Q) = 15, HW(Q) = 15",
+            "c": "HR(Q) = 13, HW(Q) = 15",
+            "d": "Todas las anteriores son validas",
+            "e": "ninguna de las anteriores es validas"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 36,
+        "question": "Una transacción que alcanzo el estado de cometida",
+        "options": {
+            "a": "cumple la propiedad de atomicidad",
+            "b": "cumple la propiedad de durabilidad",
+            "c": "cumple la propiedad de aislamiento",
+            "d": "cumple la propiedad de consistencia",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 37,
+        "question": "Quienes no son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 38,
+        "question": "El protocolo de dos fases",
+        "options": {
+            "a": "Sólo admite bloqueos compartidos",
+            "b": "Sólo admite bloqueos exclusivos",
+            "c": "Evita situaciones de deadlock",
+            "d": "Evita situaciones de inanición",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 39,
+        "question": "La propiedad de idempotencia",
+        "options": {
+            "a": "Se puede aplicar cuando se utiliza el protocolo de Hora de Entrada",
+            "b": "Se puede aplicar cuando se utiliza el protocolo de bloqueo de dos fases",
+            "c": "Se puede aplicar en entornos monousuarios",
+            "d": "Se puede aplicar en el protocolo de doble paginación",
+            "e": "Todas las anteriores son válidas",
+            "f": "Algunas de las anteriores son validas",
+            "g": "Ninguna de las anteriores son validas"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 40,
+        "question": "El protocolo de modificación inmediata de la BD",
+        "options": {
+            "a": "Genera una bitácora con menos información que el protocolo de modificación diferida",
+            "b": "Requiere de menos procedimientos para la recuperación que le protocolo de modificación diferida",
+            "c": "Es la peor variante del protocolo basado en registro histórico",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 41,
+        "question": "Una transacción que alcanza el estado de abortada",
+        "options": {
+            "a": "Puede volver a activa, si el protocolo de HDE lo permite",
+            "b": "Alcanzó el estado de parcialmente abortada y aborto por un fallo en el sistema",
+            "c": "Alcanzo el estado de fallada, posteriormente a haberse ejecutado total o parcialmente en memoria RAM",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 42,
+        "question": "Una transacción que se ejecuta utilizando el protocolo de hora de entrada",
+        "options": {
+            "a": "Puede tener Commits y aborts en la bitácora",
+            "b": "Puede utilizar el protocolo de dos fases para controlar aislamiento",
+            "c": "Puede tener checkpoints en la bitácora",
+            "d": "Todas las anteriores son validas",
+            "e": "Algunas de las anteriores son validas",
+            "f": "La pregunta es incompatible con las opciones a, b y c"
+        },
+        "answer": "e"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 43,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "Garantiza que una transacción no puede fallar",
+            "b": "Solo se aplica en ambientes concurrentes",
+            "c": "Garantiza el cometido de una transacción",
+            "d": "Solo se aplica en ambientes monousuario",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 44,
+        "question": "El protocolo de doble paginación",
+        "options": {
+            "a": "Evita la pérdida de consistencia de la BD",
+            "b": "Asegura la atomicidad de una transacción",
+            "c": "Garantiza el aislamiento de una transacción",
+            "d": "Asegura la durabilidad de una transacción",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 45,
+        "question": "El protocolo de Hora de Entrada",
+        "options": {
+            "a": "Se aplica en casos de deadlock",
+            "b": "Se aplica en casos de inanición",
+            "c": "Solo admite bloqueos compartidos",
+            "d": "Admite bloqueos exclusivos",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 46,
+        "question": "Quienes no son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 47,
+        "question": "El protocolo de modificación inmediata de la BD",
+        "options": {
+            "a": "Genera una bitácora con menos información que el protocolo de modificación diferida",
+            "b": "Requiere de menos procedimientos para la recuperación que le protocolo de modificación diferida",
+            "c": "Es la peor variante del protocolo basado en registro histórico",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 48,
+        "question": "La propiedad de durabilidad",
+        "options": {
+            "a": "Asegura que una transacción finalizada no puede volver a ejecutarse",
+            "b": "Asegura que una transacción no interfiera con otra durante su ejecución",
+            "c": "Asegura que una transacción se ejecutó completamente si no hubo errores",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 49,
+        "question": "El protocolo de Hora de Entrada",
+        "options": {
+            "a": "Sólo se aplica en casos de deadlock",
+            "b": "Se aplica en casos de inanición",
+            "c": "Admite bloqueos compartidos",
+            "d": "Se aplica en ambientes monousuarios para tratar errores",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 50,
+        "question": "El protocolo de doble paginación",
+        "options": {
+            "a": "Sólo admite bloqueos compartidos",
+            "b": "Sólo admite bloqueos exclusivos",
+            "c": "Permite resolver situaciones de deadlock",
+            "d": "No permite resolver situaciones de inanición",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 51,
+        "question": "Un checkpoint en ambientes concurrentes",
+        "options": {
+            "a": "Solo se genera si hay transacciones activas",
+            "b": "Solo se genera si hay como mínimo 2 transacciones activas",
+            "c": "Se aplica en el protocolo de doble paginación",
+            "d": "No requiere el uso de bitácora",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 52,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "se puede asegurar con el uso de una bitácora",
+            "b": "se puede asegurar con el uso del método de doble paginación",
+            "c": "se puede asegurar con el protocolo de HDE",
+            "d": "se puede asegurar con el protocolo de dos fases",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 53,
+        "question": "Una transacción que alcanza el estado de abortada",
+        "options": {
+            "a": "Puede volver a activa, si el protocolo de HDE lo permite",
+            "b": "Alcanzó el estado de parcialmente abortada y aborto por un fallo en el sistema",
+            "c": "Alcanzo el estado de fallada, posteriormente a haberse ejecutado total o parcialmente en memoria RAM",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "c"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 54,
+        "question": "La propiedad de idempotencia",
+        "options": {
+            "a": "Se puede aplicar cuando se utiliza el protocolo de Hora de Entrada",
+            "b": "Se puede aplicar cuando se utiliza el protocolo de bloqueo de dos fases",
+            "c": "Se puede aplicar en entornos monousuarios",
+            "d": "Se puede aplicar en el protocolo de doble paginación",
+            "e": "Todas las anteriores son válidas",
+            "f": "Algunas de las anteriores son validas",
+            "g": "Ninguna de las anteriores son validas"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 55,
+        "question": "Sea una transacción cuya HDE es 14.   Suponga que la transacción quiere escribir el dato Q, ¿en cuál de los siguientes casos, la operación da éxito?",
+        "options": {
+            "a": "HR(Q) = 10, HW(Q) = 13",
+            "b": "HR(Q) = 15, HW(Q) = 13",
+            "c": "HR(Q) = 13, HW(Q) = 15",
+            "d": "Todas las anteriores son validas",
+            "e": "ninguna de las anteriores es validas"
+        },
+        "answer": "a"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 56,
+        "question": "La propiedad de consistencia",
+        "options": {
+            "a": "Garantiza que una transacción no puede fallar",
+            "b": "Garantiza que una transacción no va a abortar",
+            "c": "Garantiza el cometido de una transacción",
+            "d": "Garantiza que una transacción activa no fallará",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 57,
+        "question": "Si se produce deadlock",
+        "options": {
+            "a": "Previamente se produjo inanición",
+            "b": "Previamente no se produjo inanición",
+            "c": "Se debe limitar el uso de bloqueos",
+            "d": "Se debe limitar el uso de bloqueos exclusivos",
+            "e": "Se debe limitar el uso de bloqueos compartidos",
+            "f": "Todas las anteriores",
+            "g": "Algunas de las anteriores",
+            "h": "Ninguna de las anteriores"
+        },
+        "answer": "h"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 58,
+        "question": "El protocolo de modificación diferida de la BD",
+        "options": {
+            "a": "Garantiza aislamiento en la ejecución de transacciones, utilizado para ello una bitácora",
+            "b": "Utiliza la operación UNDO en caso de fallo y luego de recuperarse, cuando en bitácora encuentra una transacción",
+            "c": "Se utiliza con el protocolo de HDE",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 59,
+        "question": "El protocolo de doble paginación",
+        "options": {
+            "a": "Sólo admite bloqueos compartidos",
+            "b": "Sólo admite bloqueos exclusivos",
+            "c": "Permite resolver situaciones de deadlock",
+            "d": "Permite resolver situaciones de inanición",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    },
+    {
+        "module": "Seguridad e Integridad de Datos",
+        "number": 60,
+        "question": "Quienes no son usuarios de una BD",
+        "options": {
+            "a": "DBA",
+            "b": "Diseñador de la BD",
+            "c": "Usuario final de la BD",
+            "d": "Diseñador de Esquema Conceptual de BD",
+            "e": "Todas las anteriores",
+            "f": "Algunas de las anteriores",
+            "g": "Ninguna de las anteriores"
+        },
+        "answer": "g"
+    }
+]

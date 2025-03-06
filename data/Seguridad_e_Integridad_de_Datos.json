@@ -12,7 +12,7 @@
             "g": "Algunas de las anteriores",
             "h": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "h"
     },
     {
         "number": 2,
@@ -38,7 +38,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 4,
@@ -51,7 +51,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 5,
@@ -65,7 +65,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 6,
@@ -79,7 +79,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 7,
@@ -93,7 +93,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 8,
@@ -107,7 +107,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 9,
@@ -121,7 +121,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 10,
@@ -134,7 +134,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 11,
@@ -148,7 +148,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 12,
@@ -161,7 +161,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 13,
@@ -175,7 +175,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 14,
@@ -190,7 +190,7 @@
             "g": "Algunas de las anteriores",
             "h": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "h"
     },
     {
         "number": 15,
@@ -204,7 +204,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 16,
@@ -217,7 +217,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 17,
@@ -230,7 +230,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 18,
@@ -243,7 +243,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 19,
@@ -257,7 +257,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 20,
@@ -271,7 +271,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 21,
@@ -285,7 +285,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 22,
@@ -299,7 +299,7 @@
             "f": "Algunas de las anteriores son validas",
             "g": "Ninguna de las anteriores son validas"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 23,
@@ -312,7 +312,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 24,
@@ -338,7 +338,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 26,
@@ -351,7 +351,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 27,
@@ -364,7 +364,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 28,
@@ -378,7 +378,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 29,
@@ -392,7 +392,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 30,
@@ -405,7 +405,7 @@
             "e": "Algunas de las anteriores son validas",
             "f": "La pregunta es incompatible con las opciones a, b y c"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 31,
@@ -419,7 +419,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 32,
@@ -433,7 +433,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 33,
@@ -447,7 +447,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 34,
@@ -460,7 +460,7 @@
             "e": "Algunas de las anteriores son validas",
             "f": "La pregunta es incompatible con las opciones a, b y c"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 35,
@@ -472,7 +472,7 @@
             "d": "Todas las anteriores son validas",
             "e": "ninguna de las anteriores es validas"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 36,
@@ -485,7 +485,7 @@
             "e": "Todas las anteriores",
             "f": "Algunas de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 37,
@@ -499,7 +499,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 38,
@@ -513,7 +513,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 39,
@@ -527,7 +527,7 @@
             "f": "Algunas de las anteriores son validas",
             "g": "Ninguna de las anteriores son validas"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 40,
@@ -540,7 +540,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 41,
@@ -553,7 +553,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 42,
@@ -566,7 +566,7 @@
             "e": "Algunas de las anteriores son validas",
             "f": "La pregunta es incompatible con las opciones a, b y c"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 43,
@@ -580,7 +580,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 44,
@@ -594,7 +594,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 45,
@@ -608,7 +608,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 46,
@@ -622,7 +622,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 47,
@@ -635,7 +635,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 48,
@@ -648,7 +648,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 49,
@@ -662,7 +662,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 50,
@@ -676,7 +676,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 51,
@@ -690,7 +690,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 52,
@@ -704,7 +704,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 53,
@@ -717,7 +717,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 54,
@@ -731,7 +731,7 @@
             "f": "Algunas de las anteriores son validas",
             "g": "Ninguna de las anteriores son validas"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 55,
@@ -757,7 +757,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 57,
@@ -772,7 +772,7 @@
             "g": "Algunas de las anteriores",
             "h": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "h"
     },
     {
         "number": 58,
@@ -785,7 +785,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 59,
@@ -799,7 +799,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 60,
@@ -813,6 +813,6 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     }
 ]

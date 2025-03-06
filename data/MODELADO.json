@@ -36,7 +36,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 4,
@@ -49,7 +49,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 5,
@@ -63,7 +63,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 6,
@@ -76,7 +76,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 7,
@@ -101,7 +101,7 @@
             "d": "Se da entre un par de atributos siendo el determinante solamente clave univoca",
             "e": "Se da entre un par de atributos siendo el determinante parte de clave univoca y el determinado un"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 9,
@@ -114,7 +114,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 10,
@@ -128,7 +128,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 11,
@@ -141,7 +141,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 12,
@@ -156,7 +156,7 @@
             "g": "Todas las anteriores son correctas",
             "h": "No tengo datos suficientes para responder"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 13,
@@ -169,7 +169,7 @@
             "e": "Algunas de las anteriores son validas",
             "f": "Ninguna de las anteriores son validas"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 14,
@@ -183,7 +183,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 15,
@@ -196,7 +196,7 @@
             "e": "Algunas son correctas",
             "f": "No tengo datos suficientes para contestar"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 16,
@@ -211,7 +211,7 @@
             "g": "Todas de las anteriores son correctas",
             "h": "Algunas de las anteriores son correctas"
         },
-        "answer": "a"
+        "answer": "h"
     },
     {
         "number": 17,
@@ -222,7 +222,7 @@
             "c": "nunca se convierte en tabla",
             "d": "hay que analizar la situación puntual para poder responder"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 18,
@@ -235,7 +235,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 19,
@@ -246,7 +246,7 @@
             "c": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
             "d": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 20,
@@ -259,7 +259,7 @@
             "e": "Algunas de las anteriores con correctas",
             "f": "ninguna opción es correcta"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 21,
@@ -272,7 +272,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 22,
@@ -298,7 +298,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 24,
@@ -309,7 +309,7 @@
             "c": "nunca se convierte en tabla",
             "d": "hay que analizar la situación puntual para poder responder"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 25,
@@ -322,7 +322,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las Anteriores"
         },
-        "answer": "a"
+        "answer": "b"
     },
     {
         "number": 26,
@@ -335,7 +335,7 @@
             "e": "Alguna de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 27,
@@ -348,7 +348,7 @@
             "e": "Algunas de las anteriores son validas",
             "f": "Ninguna de las anteriores son validas"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 28,
@@ -363,7 +363,7 @@
             "g": "Algunas de las anteriores",
             "h": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 29,
@@ -386,7 +386,7 @@
             "c": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
             "d": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 31,
@@ -400,7 +400,7 @@
             "f": "Algunas son correctas",
             "g": "Ninguna es correcta"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 32,
@@ -415,7 +415,7 @@
             "g": "Todas las anteriores son correctas",
             "h": "No tengo datos suficientes para responder"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 33,
@@ -428,7 +428,7 @@
             "e": "Todas las anteriores son validas",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 34,
@@ -441,7 +441,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 35,
@@ -453,7 +453,7 @@
             "d": "Se convierte en tabla en función de lo que decida el diseñador",
             "e": "Algunas con correctas"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 36,
@@ -464,7 +464,7 @@
             "c": "Depende el DBA de la BD convertirla o no en tabla",
             "d": "Se convierte en tabla en función de lo que decida el diseñador"
         },
-        "answer": "a"
+        "answer": "b"
     },
     {
         "number": 37,
@@ -477,7 +477,7 @@
             "e": "Algunas de las anteriores son validas",
             "f": "Ninguna de las Anteriores son validas"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 38,
@@ -490,7 +490,7 @@
             "e": "Algunas de las anteriores son validas",
             "f": "Ninguna de las anteriores son validas"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 39,
@@ -505,7 +505,7 @@
             "g": "Algunas de las anteriores",
             "h": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 40,
@@ -529,7 +529,7 @@
             "c": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
             "d": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 42,
@@ -542,7 +542,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 43,
@@ -558,7 +558,7 @@
             "h": "Algunas de las anteriores",
             "i": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "i"
     },
     {
         "number": 44,
@@ -569,7 +569,7 @@
             "c": "se genera una nueva entidad para contener al atributo y la misma está relacionada con la entidad",
             "d": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 45,
@@ -593,7 +593,7 @@
             "e": "Algunas de las anteriores son correctas",
             "f": "Ninguna de las anteriores es correcta"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 47,
@@ -606,7 +606,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 48,
@@ -619,7 +619,7 @@
             "e": "Alguna de las anteriores son validas",
             "f": "Ninguna de las anteriores son validas"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 49,
@@ -633,7 +633,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 50,
@@ -646,7 +646,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 51,
@@ -658,7 +658,7 @@
             "d": "Algunas de las anteriores",
             "e": "No tengo datos suficientes para responder"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 52,
@@ -669,7 +669,7 @@
             "c": "El atributo edad genera repetición innecesaria de información",
             "d": "Debería analizar el problema en general para poder responder"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 53,
@@ -683,7 +683,7 @@
             "f": "Algunas son correctas",
             "g": "Ninguna es correcta"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 54,
@@ -695,7 +695,7 @@
             "d": "Todas las anteriores",
             "e": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 55,
@@ -720,7 +720,7 @@
             "d": "Depende de la decisión que tome el diseñador",
             "e": "Depende de la decisión que tome el DBA"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 57,
@@ -735,7 +735,7 @@
             "g": "Algunas de las anteriores",
             "h": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 58,
@@ -748,7 +748,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 59,
@@ -761,7 +761,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 60,
@@ -780,6 +780,6 @@
             "k": "Algunas de las anteriores",
             "l": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "d"
     }
 ]

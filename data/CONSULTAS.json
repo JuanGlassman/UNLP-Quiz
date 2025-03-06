@@ -1,5 +1,18 @@
 [
     {
+        "number": 1,
+        "question": "Si en una consulta SQL se utiliza la cláusula EXCEPT",
+        "options": {
+            "a": "Se debe usar una función de agregación",
+            "b": "Se debe utilizar un INNER JOIN en el FROM",
+            "c": "Se controla que un conjunto contenga un elemento que pertenece al otro conjunto",
+            "d": "Todas las anteriores",
+            "e": "Algunas de las anteriores",
+            "f": "Ninguna de las anteriores"
+        },
+        "answer": "f"
+    },
+    {
         "number": 2,
         "question": "Sean dos tablas ALFA y BETA con un atributo común ART1, siendo ART1 Clave primaria en ALFA y clave. FORANEA en BETA. Cuál de las siguientes expresiones resulta más eficiente en cuanto a tiempo de respuesta",
         "options": {
@@ -9,7 +22,7 @@
             "d": "BETA, ALFA",
             "e": "Hay más de una opción correcta"
         },
-        "answer": "a"
+        "answer": "b"
     },
     {
         "number": 3,
@@ -46,7 +59,7 @@
             "d": "Los países que incluyen nia, más mostrando ademas el número de serie de sus aviones AB319.",
             "e": "Todos los países que terminan en nia, mostrando ademas el número de serie de sus aviones AB319 si los"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 6,
@@ -58,7 +71,7 @@
             "d": "Todas las anteriores son correctas",
             "e": "Algunas de las anteriores son correctas"
         },
-        "answer": "a"
+        "answer": "b"
     },
     {
         "number": 7,
@@ -71,7 +84,7 @@
             "e": "Alguna de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 8,
@@ -83,7 +96,7 @@
             "d": "P nombre (alumnos |x| materias |x| inscribe)",
             "e": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 9,
@@ -98,7 +111,7 @@
             "g": "A, B y C son correctas",
             "h": "A y C son correctas"
         },
-        "answer": "a"
+        "answer": "h"
     },
     {
         "number": 10,
@@ -112,7 +125,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 11,
@@ -124,7 +137,7 @@
             "d": "UPDATE TABLA...",
             "e": "ALTER TABLE"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 12,
@@ -135,7 +148,7 @@
             "c": "SELECT e.nombre, COUNT( * )",
             "d": "SELECT e.nombre, COUNT( * )"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 13,
@@ -147,7 +160,7 @@
             "d": "P alumnos.nombre, materias.nombre (S nota >= 4 (alumnos |x| inscripciones |x| materias ) )",
             "e": "Ninguna de las anteriores lo responde"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 14,
@@ -158,7 +171,7 @@
             "c": "SELECT e.nombre, COUNT( * )",
             "d": "SELECT e.nombre, COUNT( * )"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 15,
@@ -184,7 +197,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 17,
@@ -199,7 +212,7 @@
             "g": "Algunas de las anteriores",
             "h": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "h"
     },
     {
         "number": 18,
@@ -214,7 +227,7 @@
             "g": "Algunas de las anteriores",
             "h": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "h"
     },
     {
         "number": 19,
@@ -225,7 +238,7 @@
             "c": "Retorna solo las filas de B que no tengan coincidencia con las filas de A en el atributo id.",
             "d": "Retorna todas las filas de B."
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 20,
@@ -239,7 +252,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 21,
@@ -252,7 +265,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 22,
@@ -265,7 +278,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 23,
@@ -277,7 +290,7 @@
             "d": "P nombre (alumnos |x| materias |x| inscribe)",
             "e": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 24,
@@ -300,7 +313,7 @@
             "c": "DROP TABLE ...",
             "d": "UPDATE TABLA..."
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 26,
@@ -308,7 +321,7 @@
         "options": {
             "a": "SELECT COUNT (asientos)"
         },
-        "answer": "a"
+        "answer": "b"
     },
     {
         "number": 27,
@@ -321,7 +334,7 @@
             "e": "Alguna de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 28,
@@ -335,7 +348,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 29,
@@ -350,7 +363,7 @@
             "g": "Algunas de las anteriores",
             "h": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "h"
     },
     {
         "number": 30,
@@ -362,7 +375,7 @@
             "d": "Todas las anteriores son correctas",
             "e": "Algunas de las anteriores son correctas"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 31,
@@ -373,7 +386,7 @@
             "c": "SELECT e.idempresa, SUM ( a.cantidad_asientos)",
             "d": "SELECT e.idempresa, SUM ( a.cantidad_asientos)"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 32,
@@ -387,7 +400,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "g"
     },
     {
         "number": 33,
@@ -400,7 +413,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 34,
@@ -411,7 +424,7 @@
             "c": "Retorna solo las filas de B que no tengan coincidencia con las filas de A en el atributo id.",
             "d": "Retorna todas las filas de A."
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 35,
@@ -423,7 +436,7 @@
             "d": "Todas las anteriores son correctas",
             "e": "Algunas de las anteriores son correctas"
         },
-        "answer": "a"
+        "answer": "b"
     },
     {
         "number": 36,
@@ -435,7 +448,7 @@
             "d": "Todas son correctas",
             "e": "Algunas de las anteriores son correctas"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 37,
@@ -448,7 +461,7 @@
             "e": "Alguna de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 38,
@@ -460,7 +473,7 @@
             "d": "P alumnos.nombre(S nota >= 4(alumnos |x| inscripciones  ))",
             "e": "Algunas de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 39,
@@ -473,7 +486,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 40,
@@ -487,7 +500,7 @@
             "f": "Algunas de las anteriores",
             "g": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 41,
@@ -498,7 +511,7 @@
             "c": "Retorna solo las filas de B que no tengan coincidencia con las filas de A en el atributo id.",
             "d": "Retorna todas las filas de A."
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 42,
@@ -510,7 +523,7 @@
             "d": "Los países que incluyen nia, más mostrando además el número de serie de sus aviones AB319.",
             "e": "Todos los países que terminan en nia, mostrando además el número de serie de sus aviones AB319 si los"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 43,
@@ -536,7 +549,7 @@
             "g": "Algunas de las anteriores",
             "h": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "h"
     },
     {
         "number": 45,
@@ -547,7 +560,7 @@
             "c": "Mostrar las empresas que tienen aviones de todos los modelos",
             "d": "Mostrar las empresas cuyos modelos de aviones están en la base de datos"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 46,
@@ -559,7 +572,7 @@
             "d": "Todas las anteriores son correctas",
             "e": "Algunas de las anteriores son correctas"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 47,
@@ -571,7 +584,7 @@
             "d": "UPDATE TABLA...",
             "e": "ALTER TABLE"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 48,
@@ -584,7 +597,7 @@
             "e": "Algunas de las Anteriores",
             "f": "Ninguna de las anteriores."
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 49,
@@ -608,7 +621,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 51,
@@ -619,7 +632,7 @@
             "c": "SELECT e.nombre, COUNT( * )",
             "d": "SELECT e.nombre, COUNT( * )"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
         "number": 52,
@@ -631,7 +644,7 @@
             "d": "Palumnos.ombre( S nota >= 4(alumnos |x| inscripciones  ) )",
             "e": "Algunas de las anteriores"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 53,
@@ -667,7 +680,7 @@
             "d": "que haya en ambas tablas un atributo que se llama igual, aunque no sea del mismo tipo",
             "e": "que entre ambas tablas haya un atributo común, esto es. que se llame igual y sea del mismo tipo"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 56,
@@ -680,7 +693,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "number": 57,
@@ -693,7 +706,7 @@
             "e": "Algunas de las anteriores",
             "f": "Ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "f"
     },
     {
         "number": 58,
@@ -705,7 +718,7 @@
             "d": "todas las anteriores",
             "e": "algunas de las anteriores son validas"
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 59,
@@ -718,7 +731,7 @@
             "e": "Algunas de las Anteriores",
             "f": "Ninguna de las anteriores."
         },
-        "answer": "a"
+        "answer": "e"
     },
     {
         "number": 60,
@@ -730,6 +743,6 @@
             "d": "todas las anteriores",
             "e": "ninguna de las anteriores"
         },
-        "answer": "a"
+        "answer": "d"
     }
 ]
