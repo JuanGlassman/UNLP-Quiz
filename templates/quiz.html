@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" href="{% static 'styles_quiz.css' %}">
+    <script src="{% static 'error.js' %}"></script>
 </head>
 <body>
     <h1>Quiz - {{ modulo }}</h1>
@@ -49,26 +50,5 @@
         {% csrf_token %}
         <button type="submit" class="btn btn-danger">Reiniciar módulo</button>
     </form>
-    
-
-    <script>
-        function validarSeleccion() {
-            var opciones = document.getElementsByName('answer');
-            var seleccionado = false;
-
-            for (let i = 0; i < opciones.length; i++) {
-                if (opciones[i].checked) {
-                    seleccionado = true;
-                    break;
-                }
-            }
-
-            if (!seleccionado) {
-                mensajeError.style.display = "block"; 
-                return false; 
-            }
-            return true; 
-        }
-    </script>
 </body>
 </html>

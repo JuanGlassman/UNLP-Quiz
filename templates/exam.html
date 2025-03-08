@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modo Examen</title>
-    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link rel="stylesheet" href="{% static 'styles_quiz.css' %}">
+    <script src="{% static 'error.js' %}"></script>
 </head>
 <body>
     <h1>Modo Examen</h1>
@@ -13,7 +14,7 @@
 
     <form method="post">
         {% csrf_token %}
-        <h3>{{ question.number }}) {{ question.question }}</h3>
+        <h3>{{ question.question }}</h3>
 
         {% for key, value in question.options.items %}
             <label>
@@ -35,7 +36,8 @@
             </p>
             <button type="submit">Siguiente pregunta</button>
         {% else %}
-            <button type="submit">Responder</button>
+            <button type="submit" onclick="return validarSeleccion()">Responder</button>
+            <p id="mensajeError" class="error-message">⚠️ Debes seleccionar una respuesta antes de continuar.</p>
         {% endif %}
     </form>
 
